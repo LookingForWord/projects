@@ -1,0 +1,11 @@
+{
+  "res":1,
+  "data":{
+    "registerUser":123456789987654123123456789987456123,
+    "borrowUser":22222222222,
+    "loanAmount":33333333,
+    "dueAmount":4444444,
+    "overdue":5555555,
+    "overdueAmount":6666666
+  }
+}

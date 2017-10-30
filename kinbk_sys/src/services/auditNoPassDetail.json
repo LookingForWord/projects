@@ -1,0 +1,21 @@
+{
+  "res":1,
+  "data":{
+    "id":0,
+		"name":"孙月月悦",
+		"phone":"12345678911",
+		"identityCard":"510722********1311123456789987456321456789",
+		"submitProject":"3/5",
+		"submitDate":"2017年12月12日23:32",
+		"limit":"100,000/100,000",
+    "entryDate": "2017-06-08",
+    "depart": "信息技术中心",
+    "position": "员工",
+    "education": "高中及以下",
+    "marry": "未婚",
+    "address": "四川省成都市总府路一号ifs国际金融中心2-24-2#",
+    "income": 30000,
+    "relativeContact": "父亲 孙大悦 13980089478",
+    "urgencyContact": "父亲 孙大悦 13980089478"
+	}
+}
