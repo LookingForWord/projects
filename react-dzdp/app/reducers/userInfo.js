@@ -6,7 +6,7 @@ import reducersCreator from '@/util/reducersCreator'
 
 
 const userInfoReducer = reducersCreator({},{
-    USER_INFO_UPDATE:(state,action) => {
+    [USER_INFO_UPDATE]:(state,action) => {
         return Object.assign({},state,action)
     }
 });

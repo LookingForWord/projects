@@ -9,9 +9,18 @@ import {resetStateAction} from '../../actions/resetState'
 import mapDispatchToProps from '../../util/mapDispatchToProps'
 import mapStateToProps from '../../util/mapStateToProps'
 import {connect} from 'react-redux'
+import BuyAndStore from './subpage/BuyAndStore'
+
 class Detail extends BaseComponent{
+
     render(){
-        return <DetailComponent data={this.props.detail} loadMore={this.loadMore.bind(this)}/>
+        const {match:{params}} = this.props;
+
+        return (
+            <DetailComponent data={this.props.detail} loadMore={this.loadMore.bind(this)}>
+                <BuyAndStore id={params.id}/>
+            </DetailComponent>
+        )
     }
 
     componentDidMount(){

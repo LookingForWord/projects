@@ -1,10 +1,10 @@
 /**
  * reducer creators
  */
-export default function reducersCreator(initalState,typesHandler){
+export default function reducersCreator(initialState,typesHandler){
     //存储初始化状态，便于重置初始化状态
-    initalState = Object.assign({initItem:null},initalState)
-    const initState = Object.assign({initState:initalState},initalState);
+    initialState = Object.assign({initItem:null},initialState)
+    const initState = Object.assign({initState:initialState},initialState);
 
     return (state = initState,action) => {
         if(typesHandler.hasOwnProperty(action.type))

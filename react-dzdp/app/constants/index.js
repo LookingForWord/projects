@@ -21,6 +21,13 @@ export const LOAD_SUCCESS = 'LOAD_SUCCESS'
 export const LOAD_FAILURE = 'LOAD_FAILURE'
 
 /**
+ * 商品收藏 action type
+ */
+export const STORE_UPDATE = 'STORE_UPDATE'
+export const STORE_ADD = 'STORE_ADD'
+export const STORE_REMOVE = 'STORE_REMOVE'
+
+/**
  * 请求API URL
  */
 import BASE_URL from './baseURL'
