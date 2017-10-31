@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--[if lt IE 9]><script >alert('您当前浏览器版本过低，请更换浏览器！');</script><![endif]-->
+    <title>登录</title>
+    <script src="js/autoAdapt.js"></script>
+    <meta name="keywords" content="蓝润，金宝行，账户系统，登录">
+    <meta name="description" content="蓝润，金宝行，账户系统，登录">
+    <meta name="author" content="yangshao">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="icon" href="images/logo-inner.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+<body>
+    <div id="app">
+        <header class="app-header">
+            <div><img src="images/login_logo.png" alt="logo"></div>
+        </header>
+        <section class="app-body">
+            <div class="app-login overflow-top">
+                <div class="app-title">
+                    <a href="javascript:void(0);" class="active">用户登录</a>
+                    <a href="register.html">创建账号</a>
+                </div>
+                <form class="login-form">
+                    <div class="login-mobile">
+                        <span class="label">手机号</span><span class="error-title"><em></em><span></span></span>
+                        <label for="mobile"><input type="text" autocomplete="off" class="mobile" name="mobile" id="mobile" maxlength="11"><em class="login_mobile_correct"></em></label>
+                    </div>
+                    <div class="login-pwd">
+                        <span class="label">密码</span><span class="error-title"><em></em><span></span></span>
+                        <label for="pwd"><input type="text" autocomplete="off" onfocus="this.type='password'" class="pwd" name="password" id="pwd" maxlength="16" minlength="6"><em class="top"></em><em class="bottom"></em></label>
+                    </div>
+                    <div class="login-captcha">
+                        <span class="label">图片验证码</span><span class="error-title"><em></em><span></span></span>
+                        <label for="captcha" onclick="return false;"><input type="text" class="captcha" name="captcha" id="captcha" maxlength="4" autocomplete="off"><img
+                                src="images/captcha.png" alt="验证码" title="验证码" onerror="this.src='images/img_error.png'" class="captcha-code"></label>
+                    </div>
+                    <div class="login-other">
+                        <div class="clearfix"><span class="float-left"><em><b></b></em>记住我</span><a href="forget_pwd.html" class="float-right">忘记密码？</a></div>
+                    </div>
+                    <div class="login-btn">
+                        <button onclick="return false;">登录</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="app-footer">
+            <div><em class="left"></em><span>蓝润智能账户系统</span><em class="right"></em></div>
+        </footer>
+    </div>
+    <script src="js/constant.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/login.js?v=102"></script>
+</body>
+</html>

@@ -1,0 +1,804 @@
+@charset "UTF-8";
+/*
+  compass 引用
+*/
+/* line 5, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+  自定义引用
+*/
+/*
+  自定义变量集
+*/
+/*
+  My Mixin
+*/
+/*最小宽高*/
+/*table*/
+/*opacity*/
+/*兼容圆角*/
+/*兼容box-shadow*/
+/*兼容渐变--safari chrome低版本没兼容*/
+/*
+  CSS Sprites
+*/
+/*引入sprites*/
+/*定义跨浏览器的能力*/
+/*清除浮动*/
+/* line 15, sass/_common.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*左右浮动*/
+/* line 20, sass/_common.scss */
+.float-left {
+  float: left;
+  display: inline;
+}
+
+/* line 23, sass/_common.scss */
+.float-right, .app-section-content-content {
+  float: right;
+  display: inline;
+}
+
+/*让子元素能够使用父元素的样式  特别是 li下的a标签*/
+/* line 28, sass/_common.scss */
+.inherited {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+.inherited:active, .inherited:focus {
+  outline: none;
+}
+
+/*hover 添加下划线*/
+/* line 33, sass/_common.scss */
+.underline-hover {
+  text-decoration: none;
+}
+/* line 4, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
+.underline-hover:hover, .underline-hover:focus {
+  text-decoration: underline;
+}
+
+/*文本单行省略号 需要安装compass install compass/ellipsis*/
+/* line 39, sass/_common.scss */
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -moz-binding: url('/app/styles/xml/ellipsis.xml#ellipsis');
+}
+
+/*display:inline-block的跨浏览器样式*/
+/* line 44, sass/_common.scss */
+.inline-block, .app-header-body .float-right a, .app-header-body .app-section-content-content a, .app-header-body .float-right span, .app-header-body .app-section-content-content span, .app-section-header-body a, .basics-box label, .upload-image-label span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 47, sass/_common.scss */
+.overflow-top, .basics-box {
+  display: table;
+}
+
+/* line 50, sass/_common.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  min-width: 1024px;
+  min-height: 768px;
+}
+
+/* line 56, sass/_common.scss */
+* {
+  font-family: "Microsoft YaHei",sans-serif;
+}
+
+/* line 59, sass/_common.scss */
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 63, sass/_common.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 67, sass/_common.scss */
+button, input {
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/**
+ * 定义公用函数
+ */
+/************内容公用部分************/
+/* line 5, sass/set_basics.scss */
+#app {
+  background-color: #F5F5F5;
+  padding-top: 0.66667rem;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  height: 5.625rem;
+  overflow: hidden;
+}
+
+/* line 20, sass/set_basics.scss */
+.app-header {
+  height: 0.66667rem;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 34, sass/set_basics.scss */
+.app-header-body {
+  height: 0.25rem;
+  width: 6.375rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 45, sass/set_basics.scss */
+.app-header-body .float-left {
+  width: 1.04167rem;
+  height: 0.25rem;
+}
+/* line 48, sass/set_basics.scss */
+.app-header-body .float-left img {
+  width: 100%;
+  height: 100%;
+}
+/* line 53, sass/set_basics.scss */
+.app-header-body .float-right, .app-header-body .app-section-content-content {
+  font-size: 0.08333rem;
+  height: 0.25rem;
+  line-height: 0.25rem;
+  color: #5E5E5E;
+  font-weight: bold;
+}
+/* line 59, sass/set_basics.scss */
+.app-header-body .float-right em, .app-header-body .app-section-content-content em {
+  font-style: normal;
+}
+/* line 62, sass/set_basics.scss */
+.app-header-body .float-right a, .app-header-body .app-section-content-content a, .app-header-body .float-right span, .app-header-body .app-section-content-content span {
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  height: 0.09375rem;
+  line-height: 0.09375rem;
+  border-left: 1px solid #E8E8E8;
+  cursor: pointer;
+}
+/* line 72, sass/set_basics.scss */
+.app-header-body .float-right span, .app-header-body .app-section-content-content span {
+  color: #004EA1;
+  padding-left: 0.08333rem;
+}
+/* line 76, sass/set_basics.scss */
+.app-header-body .float-right a, .app-header-body .app-section-content-content a {
+  color: #5E5E5E;
+  padding: 0 0.08333rem;
+  margin-left: 0.08333rem;
+}
+
+/* line 84, sass/set_basics.scss */
+.app-section {
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F5;
+  position: relative;
+  padding: 0.34375rem 0;
+  box-sizing: border-box;
+}
+
+/* line 92, sass/set_basics.scss */
+.app-section-header {
+  width: 100%;
+  height: 0.45833rem;
+  position: relative;
+}
+
+/* line 98, sass/set_basics.scss */
+.app-section-header-body {
+  width: 5.41667rem;
+  height: 0.26042rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E0E0E0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 112, sass/set_basics.scss */
+.app-section-header-body a {
+  color: #BDBDBD;
+  font-size: 0.09375rem;
+  height: 0.23958rem;
+  line-height: 0.23958rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid transparent;
+  background-color: #fff;
+  margin-left: 0.16667rem;
+  padding: 0 1px;
+}
+/* line 123, sass/set_basics.scss */
+.app-section-header-body a:first-child {
+  margin-left: 0;
+}
+/* line 126, sass/set_basics.scss */
+.app-section-header-body a.active {
+  color: #424242;
+  border-color: #424242;
+  height: 0.25rem;
+  top: 0.01042rem;
+  position: relative;
+}
+
+/* line 135, sass/set_basics.scss */
+.app-section-body {
+  height: 100%;
+  width: 6.25rem;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 145, sass/set_basics.scss */
+.app-section-content {
+  width: 100%;
+  height: 4.27083rem;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 0.05208rem;
+}
+
+/*************基本信息**************/
+/* line 158, sass/set_basics.scss */
+.app-section-content-body {
+  width: 5.41667rem;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 166, sass/set_basics.scss */
+.app-section-content-content {
+  width: 4.79167rem;
+  height: 2.78646rem;
+  transform: translateY(8.90244%);
+  position: relative;
+}
+
+/* line 182, sass/set_basics.scss */
+.head-portrait {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 188, sass/set_basics.scss */
+.head-portrait:hover a {
+  display: block;
+}
+/* line 191, sass/set_basics.scss */
+.head-portrait img, .head-portrait a {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/* line 196, sass/set_basics.scss */
+.head-portrait a {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/active_head.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+/* line 203, sass/set_basics.scss */
+.head-portrait a.active {
+  display: block;
+}
+
+/* line 208, sass/set_basics.scss */
+.basics {
+  width: 3.67188rem;
+  height: 1.44792rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+/* line 222, sass/set_basics.scss */
+.basics-left, .basics-right {
+  width: 1.6875rem;
+  height: 1.44792rem;
+  overflow: hidden;
+}
+/* line 226, sass/set_basics.scss */
+.basics-left .basics-box:first-child, .basics-right .basics-box:first-child {
+  height: 0.39583rem !important;
+  overflow: hidden;
+}
+/* line 229, sass/set_basics.scss */
+.basics-left .basics-box:first-child .label, .basics-left .basics-box:first-child .error-title, .basics-right .basics-box:first-child .label, .basics-right .basics-box:first-child .error-title {
+  margin-top: 0 !important;
+}
+
+/* line 234, sass/set_basics.scss */
+.basics-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 0.25rem;
+}
+/* line 241, sass/set_basics.scss */
+.basics-btn button {
+  height: 0.25rem;
+  border-radius: 0.02604rem;
+  width: 1.66667rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: #004EA2;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  font-size: 0.09375rem;
+  text-align: center;
+  line-height: 0.23958rem;
+  cursor: pointer;
+}
+
+/* line 263, sass/set_basics.scss */
+.error-title {
+  font-size: 0.08333rem;
+  height: 0.10417rem;
+  line-height: 0.10417rem;
+  width: 1.5rem;
+  margin: 0.11458rem auto 0.05208rem;
+  display: none;
+  color: #F44336;
+  position: relative;
+  padding-left: 0.13542rem;
+  box-sizing: border-box;
+}
+/* line 274, sass/set_basics.scss */
+.error-title em {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -0.04167rem;
+  width: 0.08333rem;
+  height: 0.08333rem;
+  background: url(../images/error.png) no-repeat center center;
+  background-size: cover;
+}
+
+/* line 286, sass/set_basics.scss */
+.error .label {
+  display: none !important;
+}
+/* line 289, sass/set_basics.scss */
+.error .error-title {
+  display: block !important;
+}
+/* line 292, sass/set_basics.scss */
+.error input {
+  border-color: #F44336 !important;
+}
+
+/* line 296, sass/set_basics.scss */
+.basics-box {
+  height: 0.52083rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+/* line 302, sass/set_basics.scss */
+.basics-box label {
+  width: 100%;
+  height: 0.25rem;
+  position: relative;
+  text-align: center;
+}
+/* line 309, sass/set_basics.scss */
+.basics-box .label {
+  color: #BDBDBD;
+  font-size: 0.08333rem;
+  display: block;
+  height: 0.10417rem;
+  line-height: 0.10417rem;
+  width: 1.5rem;
+  margin: 0.11458rem auto 0.05208rem;
+}
+/* line 318, sass/set_basics.scss */
+.basics-box input {
+  height: 0.24479rem;
+  width: 1.66667rem;
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+  padding: 0 0.17708rem 0 0.08333rem;
+  border-radius: 0.02604rem;
+  font-size: 0.09375rem;
+  color: #004EA2;
+  text-shadow: 0 0 0 #000;
+  -webkit-text-fill-color: transparent;
+}
+
+/*******************修改头像*****************/
+/* line 334, sass/set_basics.scss */
+.edit-head-box {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(98, 98, 98, 0.8);
+}
+/* line 336, sass/set_basics.scss */
+.edit-head-box.active {
+  display: block;
+}
+
+/* line 346, sass/set_basics.scss */
+.edit-head {
+  width: 4.42708rem;
+  height: 2.70833rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 0.05208rem;
+}
+
+/* line 359, sass/set_basics.scss */
+.edit-head-header {
+  width: 100%;
+  height: 0.4375rem;
+}
+/* line 362, sass/set_basics.scss */
+.edit-head-header em {
+  width: 0.08333rem;
+  height: 0.08333rem;
+  background: url(../images/head_close.png) no-repeat center center;
+  background-size: cover;
+  margin-top: 0.0625rem;
+  margin-right: 0.0625rem;
+  cursor: pointer;
+}
+/* line 371, sass/set_basics.scss */
+.edit-head-header span {
+  height: 100%;
+  line-height: 0.4375rem;
+  margin-left: 0.20833rem;
+  color: #424242;
+  font-size: 0.09375rem;
+}
+
+/* line 379, sass/set_basics.scss */
+.edit-head-section {
+  width: 100%;
+  height: 2.27083rem;
+  padding: 0.05208rem 0;
+  box-sizing: border-box;
+}
+
+/* line 385, sass/set_basics.scss */
+.edit-head-content {
+  width: 2.75rem;
+  height: 100%;
+  margin: 0 auto;
+}
+/* line 389, sass/set_basics.scss */
+.edit-head-content .float-left {
+  width: 1.30208rem;
+  height: 100%;
+}
+/* line 393, sass/set_basics.scss */
+.edit-head-content .float-right, .edit-head-content .app-section-content-content {
+  width: 1.14583rem;
+  height: 100%;
+}
+/* line 396, sass/set_basics.scss */
+.edit-head-content .float-right h2, .edit-head-content .app-section-content-content h2 {
+  width: 100%;
+  color: #BDBDBD;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.07292rem;
+  height: 0.08333rem;
+  line-height: 0.08333rem;
+}
+
+/* line 407, sass/set_basics.scss */
+.images-box {
+  width: 1.14583rem;
+  height: 1.14583rem;
+  background-color: #E0E0E0;
+  position: relative;
+  overflow: hidden;
+}
+/* line 413, sass/set_basics.scss */
+.images-box img {
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+/* line 420, sass/set_basics.scss */
+.images-box img.active {
+  display: block;
+}
+
+/* line 425, sass/set_basics.scss */
+.upload-image, .save-image {
+  width: 1.14583rem;
+  height: 0.25rem;
+  border: 1px solid transparent;
+  line-height: 0.23958rem;
+  text-align: center;
+  font-size: 0.09375rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: #90CAF9;
+  border-radius: 0.02604rem;
+  margin-top: 0.20833rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* line 440, sass/set_basics.scss */
+.images-box-view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.6875rem;
+  height: 0.6875rem;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  display: none;
+}
+/* line 449, sass/set_basics.scss */
+.images-box-view.active {
+  display: block;
+}
+
+/* line 453, sass/set_basics.scss */
+.images-desc {
+  margin-top: 0.14063rem;
+  width: 100%;
+}
+/* line 457, sass/set_basics.scss */
+.images-desc p {
+  font-size: 0.07292rem;
+  color: #BDBDBD;
+  line-height: 1.6em;
+  height: 1.6em;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* line 466, sass/set_basics.scss */
+.preview-head {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #E0E0E0;
+  margin: 0.33333rem auto 0.44271rem;
+  overflow: hidden;
+}
+/* line 473, sass/set_basics.scss */
+.preview-head img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* line 479, sass/set_basics.scss */
+.save-image {
+  margin-top: 0;
+  background-color: #E0E0E0;
+}
+/* line 482, sass/set_basics.scss */
+.save-image.active {
+  background-color: #004EA2;
+}
+
+/* line 487, sass/set_basics.scss */
+.upload-image-label input, .upload-image-label form {
+  width: 0;
+  height: 0;
+}
+
+/* line 495, sass/set_basics.scss */
+.exit-model {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* line 503, sass/set_basics.scss */
+.exit-model.active {
+  display: block;
+}
+/* line 506, sass/set_basics.scss */
+.exit-model .exit-info {
+  width: 2.08333rem;
+  height: 1.30208rem;
+  border-radius: 0.05208rem;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+/* line 515, sass/set_basics.scss */
+.exit-model .exit-info p {
+  font-size: 0.09375rem;
+  text-align: center;
+  color: #424242;
+  height: 0.10417rem;
+  line-height: 0.10417rem;
+  margin-top: 0.46875rem;
+}
+/* line 523, sass/set_basics.scss */
+.exit-model .exit-info div {
+  height: 0.25rem;
+  text-align: center;
+  margin-top: 0.33333rem;
+}
+/* line 527, sass/set_basics.scss */
+.exit-model .exit-info div button {
+  height: 0.25rem;
+  width: 0.8125rem;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  line-height: 0.23958rem;
+  text-align: center;
+  font-size: 0.09375rem;
+  font-weight: bold;
+  background-color: #90CAF9;
+  border-radius: 0.02604rem;
+  color: #fff;
+  cursor: pointer;
+}
+/* line 541, sass/set_basics.scss */
+.exit-model .exit-info div .delete-reset {
+  color: #BDBDBD;
+  border-color: #BDBDBD;
+  background-color: #fff;
+  margin-left: 0.08333rem;
+}
+/* line 549, sass/set_basics.scss */
+.exit-model .close-icon {
+  position: absolute;
+  top: 0.0625rem;
+  right: 0.0625rem;
+  width: 0.08333rem;
+  min-width: 10px;
+  min-height: 10px;
+  height: 0.08333rem;
+  background: url(../images/head_close.png) no-repeat center center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 562, sass/set_basics.scss */
+input:focus {
+  background-color: #F5F5F5 !important;
+  border-color: transparent !important;
+}
+/* line 565, sass/set_basics.scss */
+input:focus ~ em {
+  background-color: #F5F5F5 !important;
+}

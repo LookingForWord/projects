@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>基本资料</title>
+    <script src="js/autoAdapt.js"></script>
+    <meta name="keywords" content="蓝润，金宝行，账户系统，基本资料">
+    <meta name="description" content="蓝润，金宝行，账户系统，基本资料">
+    <meta name="author" content="yangshao">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="icon" href="images/logo-inner.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles/set_basics.css">
+</head>
+<body>
+    <div id="app">
+        <header class="app-header">
+            <div class="app-header-body clearfix overflow-top">
+                <a href="index.html" class="float-left"><img src="images/body_logo.png" alt="logo"></a>
+                <div class="float-right">
+                    <em>134****6449</em>，欢迎使用蓝润智能账户系统 <a href="javascript:void(0);">设置</a><span onclick="showModel(event,'.exit-model')">退出</span>
+                </div>
+            </div>
+        </header>
+        <section class="app-section">
+            <div class="app-section-body">
+                <div class="app-section-content">
+                    <header class="app-section-header">
+                        <div class="app-section-header-body">
+                            <a href="javascript:void(0);" class="active">基本资料</a>
+                            <a href="set_basics.html">修改密码</a>
+                        </div>
+                    </header>
+                    <section class="app-section-content-body">
+                        <div class="app-section-content-content">
+                            <div class="head-portrait">
+                                <img src="images/default_head.png" alt="头像"><a href="javascript:void(0);" onclick="showModel(event,'.edit-head-box')"></a>
+                            </div>
+                            <form class="basics clearfix">
+                                <div class="basics-left float-left">
+                                    <div class="basics-box">
+                                        <span class="label">姓名</span>
+                                        <label for="username"><input type="text" autocomplete="off" class="username" name="username" id="username" maxlength="40"></label>
+                                    </div>
+                                    <div class="basics-box">
+                                        <span class="label">QQ</span><span class="error-title"><em></em><span></span></span>
+                                        <label for="qq"><input type="text" autocomplete="off" class="qq" name="qq" id="qq" maxlength="15"></label>
+                                    </div>
+                                    <div class="basics-box">
+                                        <span class="label">电子邮件</span><span class="error-title"><em></em><span></span></span>
+                                        <label for="email"><input type="text" autocomplete="off" class="email" name="email" id="email" maxlength="30"></label>
+                                    </div>
+                                </div>
+                                <div class="basics-right float-right">
+                                    <div class="basics-box">
+                                        <span class="label">手机号</span>
+                                        <label for="mobile"><input type="text" autocomplete="off" class="mobile" name="mobile" id="mobile" maxlength="11" value="13408226449" readonly></label>
+                                    </div>
+                                    <div class="basics-box">
+                                        <span class="label">家庭住址</span>
+                                        <label for="address"><input type="text" autocomplete="off" class="address" name="address" id="address" maxlength="30"></label>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="basics-btn">
+                                <button class="sure-btn" onclick="return false;">确定</button>
+                                <!--<button>取消</button>-->
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <div class="edit-head-box">
+            <div class="edit-head">
+                <header class="edit-head-header clearfix">
+                    <span class="float-left">设置头像</span>
+                    <em class="float-right" onclick="closeModel(event,'.edit-head-box')"></em>
+                </header>
+                <section class="edit-head-section">
+                    <div class="edit-head-content clearfix">
+                        <div class="float-left">
+                            <div class="images-box">
+                                <img src="#">
+                                <div class="images-box-view"></div>
+                            </div>
+                            <label for="upload-image" class="upload-image-label"><span class="upload-image">点击上传头像</span>
+                                <form enctype="multipart/form-data"><input type="file" id="upload-image" name="file"/></form></label>
+                            <div class="images-desc">
+                                <p>•&nbsp;&nbsp;图片格式支持jpeg/jpg/bmp/gif/png</p>
+                                <p>•&nbsp;&nbsp;图片大小不超过2M</p>
+                            </div>
+                        </div>
+                        <div class="float-right">
+                            <h2>头像预览</h2>
+                            <div class="preview-head"></div>
+                            <button class="save-image active" onclick="return false;">保存头像</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--退出提示框-->
+        <div class="exit-model">
+            <div class="exit-info"><em class="close-icon" onclick="closeModel(event,'.exit-model')"></em>
+                <p>确认退出账号<span>139****9478</span>吗？</p>
+                <div>
+                    <button class="delete-sure" onclick="sureModel(event,'.exit-model',exitLoginSure)">确定</button>
+                    <button class="delete-reset" onclick="closeModel(event,'.exit-model')">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/constant.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/recorta_fotos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/set_basics.js"></script>
+</body>
+</html>

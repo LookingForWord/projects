@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/**
+ * 定义公用函数
+ */
+@import "variables";
+@function pxToRem($size) {
+  @return $size / $baseFontSize;
+}

@@ -1,0 +1,2 @@
+/*! autoWeb - v1.0.0 - 2017-08-03 */
+function scrollFun(a,b){var c=$(this).scrollTop(),d=$(a).offset().top,e=$(b);d-c-e.height()<10?e.hasClass("active")||(e.addClass("active"),e.find("img").attr("src","images/logo2.png")):e.hasClass("active")&&(e.removeClass("active"),e.find("img").attr("src","images/logo1.png"))}$(function(){$(window).scroll(function(){scrollFun(".index-business",".header")})});

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import "common";
+@import "functions";
+*{
+  font-family: "Microsoft YaHei",sans-serif;
+}
+#app{
+  background: url(../images/login_bg.png) no-repeat 50% 50%;
+  background-size:cover;
+  position: relative;
+  height:pxToRem(1080);
+  min-height: 100%;
+  overflow: hidden;
+}
+.app-header{
+  position: absolute;
+  width:100%;
+  top:pxToRem(37);
+  left:0;
+  height:pxToRem(48);
+  div{
+    width:pxToRem(121*2+980);
+    margin:0 auto;
+    height:100%;
+    //@media (max-width: 1240px) {
+    //  width:96%;
+    //}
+  }
+  img{
+    height:100%;
+  }
+}
+.app-footer{
+  height:pxToRem(30);
+  bottom:pxToRem(100);
+  position: absolute;
+  left:0;
+  width:100%;
+  div{
+    width:pxToRem(600);
+    margin:0 auto;
+    height:100%;
+    text-align: center;
+    position: relative;
+    min-width: 320px;
+  }
+  em{
+    width:pxToRem(186);
+    border: 1px solid #fff;
+    position: absolute;
+    top:pxToRem(14.5);
+    &.left{
+      left:0;
+    }
+    &.right{
+      right:0;
+    }
+  }
+  span{
+    @extend .inline-block;
+    //width:pxToRem(192);
+    height:100%;
+    line-height:pxToRem(30);
+    font-size:pxToRem(24);
+    color:#fff;
+  }
+}
+.error-title{
+  font-size:pxToRem(16);
+  height:pxToRem(20);
+  line-height:pxToRem(20);
+  width:pxToRem(400 - 32);
+  margin:pxToRem(22) auto pxToRem(10);
+  display:none;
+  color:#F44336;
+  position: relative;
+  padding-left:pxToRem(26);
+  box-sizing: border-box;
+  white-space:nowrap;
+  em{
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top:pxToRem(-8);
+    width:pxToRem(16);
+    height:pxToRem(16);
+    background: url(../images/error.png) no-repeat center center;
+    background-size:cover;
+  }
+}
+.error{
+  .label{
+    display:none !important;
+  }
+  .error-title{
+    display:block !important;
+  }
+  input{
+    border-color:#F44336 !important;
+  }
+}
+.mobile-captcha-btn.disable{
+  background-color: #E0E0E0 !important;
+  cursor: default !important;
+}
+input:focus{
+  background-color: #F5F5F5 !important;
+  border-color:transparent !important;
+  &~em{
+    background-color: #F5F5F5 !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

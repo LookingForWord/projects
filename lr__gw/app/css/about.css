@@ -1,0 +1,790 @@
+@charset "UTF-8";
+/*
+  compass 引用
+*/
+/* line 5, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+  自定义引用
+*/
+/*
+  自定义变量集
+*/
+/*
+  My Mixin
+*/
+/*最小宽高*/
+/*table*/
+/*opacity*/
+/*兼容圆角*/
+/*兼容box-shadow*/
+/*兼容渐变--safari chrome低版本没兼容*/
+/*
+  CSS Sprites
+*/
+/*引入sprites*/
+/*定义跨浏览器的能力*/
+/*清除浮动*/
+/* line 15, sass/_common.scss */
+.clearfix, .lr-history-body .history-container dl {
+  *zoom: 1;
+}
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.clearfix:after, .lr-history-body .history-container dl:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*左右浮动*/
+/* line 20, sass/_common.scss */
+.float-left, .header-body ul.float-right li, .lr-history-body .history-container li, .lr-history-body .history-container dl dt, .lr-history-body .history-container dl dd {
+  float: left;
+  display: inline;
+}
+
+/* line 23, sass/_common.scss */
+.float-right {
+  float: right;
+  display: inline;
+}
+
+/*让子元素能够使用父元素的样式  特别是 li下的a标签*/
+/* line 28, sass/_common.scss */
+.inherited {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+.inherited:active, .inherited:focus {
+  outline: none;
+}
+
+/*hover 添加下划线*/
+/* line 33, sass/_common.scss */
+.underline-hover {
+  text-decoration: none;
+}
+/* line 4, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
+.underline-hover:hover, .underline-hover:focus {
+  text-decoration: underline;
+}
+
+/*文本单行省略号 需要安装compass install compass/ellipsis*/
+/* line 39, sass/_common.scss */
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -moz-binding: url('/app/css/xml/ellipsis.xml#ellipsis');
+}
+
+/*display:inline-block的跨浏览器样式*/
+/* line 44, sass/_common.scss */
+.inline-block, .lr-history-body .history-container, .history-container-nav {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 47, sass/_common.scss */
+input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+/* line 53, sass/_common.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 56, sass/_common.scss */
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+/* line 62, sass/_common.scss */
+em {
+  font-style: normal;
+}
+
+/* line 3, sass/_sysCommon.scss */
+.overflow-top {
+  display: table;
+}
+
+/* line 6, sass/_sysCommon.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: PingFang SC,helvetica neue,hiragino sans gb,microsoft yahei,sans-serif;
+  min-width: 1060px;
+  min-height: 680px;
+  font-size: 0;
+}
+
+/* line 14, sass/_sysCommon.scss */
+.header-body {
+  height: 100%;
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 18, sass/_sysCommon.scss */
+.header-body img.float-left {
+  height: 32px;
+  margin-top: 16px;
+}
+/* line 22, sass/_sysCommon.scss */
+.header-body ul.float-right {
+  height: 100%;
+}
+/* line 24, sass/_sysCommon.scss */
+.header-body ul.float-right li {
+  height: 60px;
+  font-size: 18px;
+  border-bottom: 4px solid transparent;
+  line-height: 60px;
+  text-align: center;
+  margin-left: 55px;
+}
+/* line 33, sass/_sysCommon.scss */
+.header-body ul.float-right li a {
+  color: #C8C8C8;
+}
+/* line 36, sass/_sysCommon.scss */
+.header-body ul.float-right li:first-child {
+  margin-left: 0;
+}
+/* line 39, sass/_sysCommon.scss */
+.header-body ul.float-right li.active {
+  border-color: #FF9800;
+}
+/* line 41, sass/_sysCommon.scss */
+.header-body ul.float-right li.active a {
+  color: #fff;
+}
+
+/* line 48, sass/_sysCommon.scss */
+.header {
+  height: 64px;
+  width: 100%;
+  min-width: 1060px;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  z-index: 99;
+  -moz-transition: top .6s;
+    -o-transition: top .6s;
+       transition: top .6s;
+}
+/* line 57, sass/_sysCommon.scss */
+.header.active {
+  top: 0;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-color: rgba(99, 99, 99, 0.2);
+  -moz-box-shadow: 0 1px 3px #f6f6f6;
+       box-shadow: 0 1px 3px #f6f6f6;
+}
+/* line 63, sass/_sysCommon.scss */
+.header.active li.active {
+  border-color: #448AFF !important;
+}
+/* line 65, sass/_sysCommon.scss */
+.header.active li.active a {
+  color: #424242 !important;
+}
+
+/* line 71, sass/_sysCommon.scss */
+.footer {
+  width: 100%;
+  height: 112px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #F5F5F5;
+}
+
+/* line 79, sass/_sysCommon.scss */
+.footer-body {
+  width: 980px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 85, sass/_sysCommon.scss */
+.footer-body-top {
+  height: 70px;
+  border-bottom: 1px solid #E0E0E0;
+  width: 100%;
+}
+/* line 89, sass/_sysCommon.scss */
+.footer-body-top .float-left, .footer-body-top .header-body ul.float-right li, .header-body ul.float-right .footer-body-top li, .footer-body-top .lr-history-body .history-container li, .lr-history-body .history-container .footer-body-top li, .footer-body-top .lr-history-body .history-container dl dt, .lr-history-body .history-container dl .footer-body-top dt, .footer-body-top .lr-history-body .history-container dl dd, .lr-history-body .history-container dl .footer-body-top dd {
+  font-size: 32px;
+  height: 70px;
+  line-height: 70px;
+  color: #212121;
+  position: relative;
+  padding-left: 40px;
+}
+/* line 96, sass/_sysCommon.scss */
+.footer-body-top .float-left em, .footer-body-top .header-body ul.float-right li em, .header-body ul.float-right .footer-body-top li em, .footer-body-top .lr-history-body .history-container li em, .lr-history-body .history-container .footer-body-top li em, .footer-body-top .lr-history-body .history-container dl dt em, .lr-history-body .history-container dl .footer-body-top dt em, .footer-body-top .lr-history-body .history-container dl dd em, .lr-history-body .history-container dl .footer-body-top dd em {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  background: url(../images/phone_icon.png) no-repeat center center;
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+}
+/* line 107, sass/_sysCommon.scss */
+.footer-body-top .float-right {
+  height: 70px;
+  line-height: 70px;
+  font-size: 16px;
+  color: #212121;
+}
+
+/* line 114, sass/_sysCommon.scss */
+.footer-body-bottom {
+  height: 41px;
+  width: 100%;
+  color: #BDBDBD;
+  font-size: 12px;
+}
+/* line 119, sass/_sysCommon.scss */
+.footer-body-bottom div {
+  height: 41px;
+  line-height: 41px;
+}
+/* line 122, sass/_sysCommon.scss */
+.footer-body-bottom div em {
+  margin: 0 18px;
+}
+
+/* line 3, sass/about.scss */
+.swiper-container, .swiper-wrapper, .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, sass/about.scss */
+.swiper-wrapper {
+  height: 100% !important;
+}
+
+/* line 10, sass/about.scss */
+.header {
+  position: absolute;
+}
+
+/* line 13, sass/about.scss */
+section {
+  width: 100%;
+}
+
+/* line 16, sass/about.scss */
+.company-profile {
+  background: url(../images/about_bg1.png) no-repeat center center;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/about_bg1.png',sizingMethod='scale');
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+}
+
+/* line 21, sass/about.scss */
+.lr-profile {
+  background: url(../images/about_bg2.png) no-repeat center center;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/about_bg2.png',sizingMethod='scale');
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+}
+
+/* line 26, sass/about.scss */
+.lr-history {
+  background: #fff url(../images/about_bg3.png) no-repeat center bottom;
+  -moz-background-size: contain;
+    -o-background-size: contain;
+       background-size: contain;
+}
+
+/* line 31, sass/about.scss */
+.lr-history-container, .company-profile-container, .lr-profile-container {
+  width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 36, sass/about.scss */
+.pagination, .pagination-content {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 33px;
+  height: 169px;
+  margin-right: -490px;
+  margin-top: -84.5px;
+  overflow: hidden;
+}
+
+/* line 46, sass/about.scss */
+.pagination-content {
+  margin-right: -440px;
+  font-size: 14px;
+  width: 100px;
+}
+/* line 50, sass/about.scss */
+.pagination-content span {
+  display: block;
+  margin-top: 35px;
+  width: 100%;
+  height: 33px;
+  line-height: 32px;
+  color: #E0E0E0;
+  text-align: right;
+}
+/* line 58, sass/about.scss */
+.pagination-content span.active {
+  color: #fff;
+}
+/* line 61, sass/about.scss */
+.pagination-content span:first-child {
+  margin-top: 0;
+}
+
+/* line 66, sass/about.scss */
+.swiper-pagination-switch {
+  display: block;
+  margin-top: 35px;
+  width: 33px;
+  height: 33px;
+  position: relative;
+}
+/* line 72, sass/about.scss */
+.swiper-pagination-switch:first-child {
+  margin-top: 0;
+}
+/* line 75, sass/about.scss */
+.swiper-pagination-switch:before, .swiper-pagination-switch:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -8px;
+}
+/* line 87, sass/about.scss */
+.swiper-pagination-switch:before {
+  -moz-box-shadow: inset 0 0 40px rgba(68, 138, 255, 0.8);
+       box-shadow: inset 0 0 40px rgba(68, 138, 255, 0.8);
+}
+/* line 90, sass/about.scss */
+.swiper-pagination-switch:after {
+  background-color: #E0E0E0;
+}
+@-webkit-keyframes ani {
+  0% {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+  }
+  50% {
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    opacity: 0;
+    width: 33px;
+    height: 33px;
+    margin-left: -16.5px;
+    margin-top: -16.5px;
+    top: 50%;
+    left: 50%;
+  }
+}
+@-moz-keyframes ani {
+  0% {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+  }
+  50% {
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    opacity: 0;
+    width: 33px;
+    height: 33px;
+    margin-left: -16.5px;
+    margin-top: -16.5px;
+    top: 50%;
+    left: 50%;
+  }
+}
+@-o-keyframes ani {
+  0% {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+  }
+  50% {
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    opacity: 0;
+    width: 33px;
+    height: 33px;
+    margin-left: -16.5px;
+    margin-top: -16.5px;
+    top: 50%;
+    left: 50%;
+  }
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+  }
+  50% {
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+  }
+  100% {
+    opacity: 0;
+    width: 33px;
+    height: 33px;
+    margin-left: -16.5px;
+    margin-top: -16.5px;
+    top: 50%;
+    left: 50%;
+  }
+}
+/* line 116, sass/about.scss */
+.swiper-pagination-switch.swiper-active-switch:before {
+  -webkit-animation-name: ani;
+     -moz-animation-name: ani;
+       -o-animation-name: ani;
+          animation-name: ani;
+  -webkit-animation-duration: 1s;
+     -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .6s;
+     -moz-animation-delay: .6s;
+       -o-animation-delay: .6s;
+          animation-delay: .6s;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+/* line 123, sass/about.scss */
+.swiper-pagination-switch.swiper-active-switch:after {
+  background-color: #448AFF;
+}
+
+/* line 127, sass/about.scss */
+.company-profile-container, .lr-profile-container, .lr-history-container {
+  position: relative;
+}
+
+/* line 130, sass/about.scss */
+.company-profile-body {
+  width: 540px;
+  height: 300px;
+  position: absolute;
+  left: 155px;
+  top: 50%;
+  margin-top: -150px;
+  color: #fff;
+  overflow: hidden;
+}
+/* line 139, sass/about.scss */
+.company-profile-body h2 {
+  font-size: 24px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 34px;
+  font-weight: normal;
+  text-align: center;
+}
+/* line 147, sass/about.scss */
+.company-profile-body p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+/* line 151, sass/about.scss */
+.company-profile-body p.first {
+  margin-top: 0;
+}
+
+/* line 156, sass/about.scss */
+.lr-profile-body {
+  position: absolute;
+  width: 692px;
+  height: 480px;
+  top: 50%;
+  margin-top: -240px;
+  left: 82px;
+  background-color: rgba(68, 138, 255, 0.4);
+  color: #fff;
+  padding: 40px 52px 50px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  overflow: hidden;
+}
+/* line 168, sass/about.scss */
+.lr-profile-body h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 36px;
+  font-weight: normal;
+}
+/* line 174, sass/about.scss */
+.lr-profile-body p {
+  font-size: 14px;
+  line-height: 23px;
+}
+/* line 177, sass/about.scss */
+.lr-profile-body p.first {
+  margin-bottom: 30px;
+}
+
+/* line 182, sass/about.scss */
+.lr-history-body {
+  height: 450px;
+  width: 775px;
+  position: absolute;
+  top: 50%;
+  margin-top: -225px;
+  left: 5px;
+  font-size: 0;
+}
+/* line 190, sass/about.scss */
+.lr-history-body .next, .lr-history-body .prev {
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  top: 50%;
+  margin-top: -23.5px;
+  background: url(../images/about_left_icon.png) no-repeat center center;
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/about_left_icon.png',sizingMethod='scale');
+  cursor: pointer;
+}
+/* line 201, sass/about.scss */
+.lr-history-body .next {
+  right: 0;
+  background-image: url(../images/about_right_icon.png);
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/about_right_icon.png',sizingMethod='scale');
+}
+/* line 206, sass/about.scss */
+.lr-history-body .prev {
+  left: 0;
+}
+/* line 209, sass/about.scss */
+.lr-history-body .history-container {
+  width: 540px;
+  height: 100%;
+  position: relative;
+  vertical-align: top;
+}
+/* line 216, sass/about.scss */
+.lr-history-body .history-container ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+/* line 221, sass/about.scss */
+.lr-history-body .history-container li {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* line 227, sass/about.scss */
+.lr-history-body .history-container dl {
+  color: #212121;
+  position: absolute;
+  top: 46px;
+  left: 0;
+}
+/* line 233, sass/about.scss */
+.lr-history-body .history-container dl dt {
+  font-size: 18px;
+  margin-right: 40px;
+  line-height: 22px;
+}
+/* line 239, sass/about.scss */
+.lr-history-body .history-container dl dd {
+  font-size: 14px;
+  line-height: 22px;
+  width: 448px;
+}
+/* line 245, sass/about.scss */
+.lr-history-body .history-container dl:nth-child(2) {
+  top: 114px;
+}
+/* line 248, sass/about.scss */
+.lr-history-body .history-container dl:nth-child(3) {
+  top: 182px;
+}
+/* line 251, sass/about.scss */
+.lr-history-body .history-container dl:nth-child(4) {
+  top: 250px;
+}
+/* line 254, sass/about.scss */
+.lr-history-body .history-container dl:nth-child(5) {
+  top: 318px;
+}
+/* line 257, sass/about.scss */
+.lr-history-body .history-container dl:nth-child(6) {
+  top: 386px;
+}
+/* line 261, sass/about.scss */
+.lr-history-body .history-container dl + dl {
+  top: 114px;
+}
+/* line 264, sass/about.scss */
+.lr-history-body .history-container dl + dl + dl {
+  top: 182px;
+}
+/* line 267, sass/about.scss */
+.lr-history-body .history-container dl + dl + dl + dl {
+  top: 250px;
+}
+/* line 270, sass/about.scss */
+.lr-history-body .history-container dl + dl + dl + dl + dl {
+  top: 318px;
+}
+/* line 273, sass/about.scss */
+.lr-history-body .history-container dl + dl + dl + dl + dl + dl {
+  top: 386px;
+}
+
+/* line 278, sass/about.scss */
+.history-container-nav {
+  vertical-align: top;
+  width: 16px;
+  height: 450px;
+  background: url(../images/about_nav_icon.png) no-repeat center center;
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/about_nav_icon.png',sizingMethod='scale');
+  margin-left: 103px;
+  margin-right: 16px;
+}
+
+/* line 289, sass/about.scss */
+.footer {
+  height: 112px !important;
+  position: static;
+}

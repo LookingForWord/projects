@@ -1,0 +1,581 @@
+@charset "UTF-8";
+/*
+  compass 引用
+*/
+/* line 5, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+  自定义引用
+*/
+/*
+  自定义变量集
+*/
+/*
+  My Mixin
+*/
+/*最小宽高*/
+/*table*/
+/*opacity*/
+/*兼容圆角*/
+/*兼容box-shadow*/
+/*兼容渐变--safari chrome低版本没兼容*/
+/*
+  CSS Sprites
+*/
+/*引入sprites*/
+/*定义跨浏览器的能力*/
+/*清除浮动*/
+/* line 15, sass/_common.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*左右浮动*/
+/* line 20, sass/_common.scss */
+.float-left, .header-body ul.float-right li {
+  float: left;
+  display: inline;
+}
+
+/* line 23, sass/_common.scss */
+.float-right {
+  float: right;
+  display: inline;
+}
+
+/*让子元素能够使用父元素的样式  特别是 li下的a标签*/
+/* line 28, sass/_common.scss */
+.inherited {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+.inherited:active, .inherited:focus {
+  outline: none;
+}
+
+/*hover 添加下划线*/
+/* line 33, sass/_common.scss */
+.underline-hover {
+  text-decoration: none;
+}
+/* line 4, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
+.underline-hover:hover, .underline-hover:focus {
+  text-decoration: underline;
+}
+
+/*文本单行省略号 需要安装compass install compass/ellipsis*/
+/* line 39, sass/_common.scss */
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -moz-binding: url('/app/css/xml/ellipsis.xml#ellipsis');
+}
+
+/*display:inline-block的跨浏览器样式*/
+/* line 44, sass/_common.scss */
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 47, sass/_common.scss */
+input {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+/* line 53, sass/_common.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 56, sass/_common.scss */
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+/* line 62, sass/_common.scss */
+em {
+  font-style: normal;
+}
+
+/* line 3, sass/_sysCommon.scss */
+.overflow-top {
+  display: table;
+}
+
+/* line 6, sass/_sysCommon.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: PingFang SC,helvetica neue,hiragino sans gb,microsoft yahei,sans-serif;
+  min-width: 1060px;
+  min-height: 680px;
+  font-size: 0;
+}
+
+/* line 14, sass/_sysCommon.scss */
+.header-body {
+  height: 100%;
+  width: 980px;
+  margin: 0 auto;
+}
+/* line 18, sass/_sysCommon.scss */
+.header-body img.float-left {
+  height: 32px;
+  margin-top: 16px;
+}
+/* line 22, sass/_sysCommon.scss */
+.header-body ul.float-right {
+  height: 100%;
+}
+/* line 24, sass/_sysCommon.scss */
+.header-body ul.float-right li {
+  height: 60px;
+  font-size: 18px;
+  border-bottom: 4px solid transparent;
+  line-height: 60px;
+  text-align: center;
+  margin-left: 55px;
+}
+/* line 33, sass/_sysCommon.scss */
+.header-body ul.float-right li a {
+  color: #C8C8C8;
+}
+/* line 36, sass/_sysCommon.scss */
+.header-body ul.float-right li:first-child {
+  margin-left: 0;
+}
+/* line 39, sass/_sysCommon.scss */
+.header-body ul.float-right li.active {
+  border-color: #FF9800;
+}
+/* line 41, sass/_sysCommon.scss */
+.header-body ul.float-right li.active a {
+  color: #fff;
+}
+
+/* line 48, sass/_sysCommon.scss */
+.header {
+  height: 64px;
+  width: 100%;
+  min-width: 1060px;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  z-index: 99;
+  -moz-transition: top .6s;
+    -o-transition: top .6s;
+       transition: top .6s;
+}
+/* line 57, sass/_sysCommon.scss */
+.header.active {
+  top: 0;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-color: rgba(99, 99, 99, 0.2);
+  -moz-box-shadow: 0 1px 3px #f6f6f6;
+       box-shadow: 0 1px 3px #f6f6f6;
+}
+/* line 63, sass/_sysCommon.scss */
+.header.active li.active {
+  border-color: #448AFF !important;
+}
+/* line 65, sass/_sysCommon.scss */
+.header.active li.active a {
+  color: #424242 !important;
+}
+
+/* line 71, sass/_sysCommon.scss */
+.footer {
+  width: 100%;
+  height: 112px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #F5F5F5;
+}
+
+/* line 79, sass/_sysCommon.scss */
+.footer-body {
+  width: 980px;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* line 85, sass/_sysCommon.scss */
+.footer-body-top {
+  height: 70px;
+  border-bottom: 1px solid #E0E0E0;
+  width: 100%;
+}
+/* line 89, sass/_sysCommon.scss */
+.footer-body-top .float-left, .footer-body-top .header-body ul.float-right li, .header-body ul.float-right .footer-body-top li {
+  font-size: 32px;
+  height: 70px;
+  line-height: 70px;
+  color: #212121;
+  position: relative;
+  padding-left: 40px;
+}
+/* line 96, sass/_sysCommon.scss */
+.footer-body-top .float-left em, .footer-body-top .header-body ul.float-right li em, .header-body ul.float-right .footer-body-top li em {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  background: url(../images/phone_icon.png) no-repeat center center;
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+}
+/* line 107, sass/_sysCommon.scss */
+.footer-body-top .float-right {
+  height: 70px;
+  line-height: 70px;
+  font-size: 16px;
+  color: #212121;
+}
+
+/* line 114, sass/_sysCommon.scss */
+.footer-body-bottom {
+  height: 41px;
+  width: 100%;
+  color: #BDBDBD;
+  font-size: 12px;
+}
+/* line 119, sass/_sysCommon.scss */
+.footer-body-bottom div {
+  height: 41px;
+  line-height: 41px;
+}
+/* line 122, sass/_sysCommon.scss */
+.footer-body-bottom div em {
+  margin: 0 18px;
+}
+
+/* line 3, sass/index.scss */
+#app {
+  width: 100%;
+  height: 200%;
+  position: relative;
+}
+
+/* line 8, sass/index.scss */
+.index-banner, .index-business {
+  width: 100%;
+  height: 50%;
+}
+
+/* line 12, sass/index.scss */
+.index-banner {
+  background: url(../images/index_bg.gif) no-repeat 50% 0;
+  -moz-background-size: cover;
+    -o-background-size: cover;
+       background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/index_bg.gif',sizingMethod='scale');
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  min-width: 1080px;
+  min-height: 520px;
+}
+
+/* line 24, sass/index.scss */
+.container {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 30, sass/index.scss */
+.container-left {
+  width: 430px;
+  height: 104px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -52px;
+}
+/* line 37, sass/index.scss */
+.container-left p, .container-left h2 {
+  font-size: 28px;
+  line-height: 52px;
+  height: 52px;
+  color: #FFFFFF;
+  text-align: center;
+}
+/* line 44, sass/index.scss */
+.container-left h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+/* line 50, sass/index.scss */
+.container-right {
+  width: 570px;
+  height: 461px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -185px;
+}
+
+/* line 59, sass/index.scss */
+.container-right-body {
+  width: 480px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 65, sass/index.scss */
+.container-right-left, .container-right-center, .container-right-right {
+  position: absolute;
+  z-index: 10;
+}
+
+/* line 69, sass/index.scss */
+.container-right-left {
+  top: 50%;
+  left: 0;
+  height: 411px;
+  margin-top: -205.5px;
+  max-width: 203px;
+}
+
+/* line 76, sass/index.scss */
+.container-right-right {
+  top: 50%;
+  right: 0;
+  height: 411px;
+  margin-top: -205.5px;
+  max-width: 203px;
+}
+
+/* line 83, sass/index.scss */
+.container-right-center {
+  top: 50%;
+  left: 50%;
+  height: 461px;
+  width: 227px;
+  margin-top: -230.5px;
+  margin-left: -113.5px;
+  z-index: 50;
+}
+
+/* line 92, sass/index.scss */
+.blank {
+  height: 50%;
+  width: 100%;
+}
+
+/* line 96, sass/index.scss */
+.index-business {
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+  position: relative;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  padding: 64px 0 112px;
+}
+
+/* line 106, sass/index.scss */
+.index-business-body {
+  width: 980px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 112, sass/index.scss */
+.index-business-body-app {
+  height: 592px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -296px;
+  position: relative;
+}
+
+/* line 121, sass/index.scss */
+.index-business-app-left, .index-business-app-right {
+  position: absolute;
+}
+
+/* line 124, sass/index.scss */
+.index-business-app-left {
+  width: 270px;
+  height: 499px;
+  left: 134px;
+  top: 50%;
+  margin-top: -249.5px;
+}
+/* line 130, sass/index.scss */
+.index-business-app-left img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 135, sass/index.scss */
+.index-business-app-right {
+  width: 306px;
+  height: 260px;
+  right: 147px;
+  top: 50%;
+  margin-top: -145px;
+  background-color: #fff;
+  color: #212121;
+  overflow: hidden;
+}
+/* line 144, sass/index.scss */
+.index-business-app-right h2 {
+  font-size: 36px;
+  font-weight: normal;
+}
+/* line 148, sass/index.scss */
+.index-business-app-right p {
+  font-size: 24px;
+  height: 56px;
+  line-height: 56px;
+}
+
+/* line 154, sass/index.scss */
+.index-business-app-right-content {
+  height: 148px;
+  width: 100%;
+  margin-top: 20px;
+}
+/* line 158, sass/index.scss */
+.index-business-app-right-content > div {
+  width: 120px;
+  height: 100%;
+}
+/* line 161, sass/index.scss */
+.index-business-app-right-content > div div {
+  height: 120px;
+  width: 120px;
+  border: 2px solid #E0E0E0;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  -moz-border-radius: 12px;
+       border-radius: 12px;
+  position: relative;
+}
+/* line 168, sass/index.scss */
+.index-business-app-right-content > div div img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+/* line 178, sass/index.scss */
+.index-business-app-right-content > div span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  height: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+}

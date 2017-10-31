@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+    <script src="js/autoAdapt.js"></script>
+    <meta name="keywords" content="蓝润，金宝行，账户系统，忘记密码">
+    <meta name="description" content="蓝润，金宝行，账户系统，忘记密码">
+    <meta name="author" content="yangshao">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="icon" href="images/logo-inner.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles/forget_pwd.css">
+</head>
+<body>
+    <div id="app">
+        <header class="app-header">
+            <div><img src="images/login_logo.png" alt="logo"></div>
+        </header>
+        <section class="app-body">
+            <div class="app-forget-pwd overflow-top">
+                <div class="app-title">
+                    <a href="javascript:void(0);" class="active">忘记密码</a>
+                </div>
+                <form class="forget-pwd-form forget-pwd-first-step active">
+                    <div class="forget-pwd-mobile">
+                        <span class="label">手机号</span><span class="error-title"><em></em><span></span></span>
+                        <label for="mobile"><input type="text" class="mobile" autocomplete="off" name="mobile" id="mobile" maxlength="11"><em class="login_mobile_correct"></em></label>
+                    </div>
+                    <div class="forget-pwd-captcha active">
+                        <span class="label">图片验证码</span><span class="error-title"><em></em><span></span></span>
+                        <label for="captcha" onclick="return false;"><input type="text" class="captcha" autocomplete="off" name="captcha" id="captcha" maxlength="4"><img
+                                src="images/captcha.png" alt="验证码" class="img-captcha" title="验证码" onerror="this.src='images/img_error.png'"></label>
+                    </div>
+                    <div class="next-btn">
+                        <button onclick="return false;">下一步</button>
+                    </div>
+                </form>
+                <form class="forget-pwd-form forget-pwd-second-step">
+                    <div class="forget-pwd-header">我们已发送一条验证短信至<span></span><a href="javascript:void(0);" class="change-mobile">( 修改 )</a></div>
+                    <div class="forget-pwd-captcha active">
+                        <span class="label">手机验证码</span><span class="error-title"><em></em><span></span></span>
+                        <label for="mobile-captcha" onclick="return false;"><input type="text" class="captcha" autocomplete="off" name="mobileCaptcha" id="mobile-captcha" maxlength="6"><span class="mobile-captcha-btn disable">重新发送(<span>60</span>S)</span></label>
+                    </div>
+                    <div class="forget-set-pwd">
+                        <span class="label">设置6-16位数字或字母密码</span><span class="error-title"><em></em><span></span></span>
+                        <label for="set-pwd"><input type="text" autocomplete="off" onclick="this.type='password'" class="set-pwd" name="newPwd" id="set-pwd" maxlength="16" minlength="6"><em class="top"></em><em class="bottom"></em></label>
+                    </div>
+                    <div class="forget-sure-pwd">
+                        <span class="label">再次输入密码</span><span class="error-title"><em></em><span></span></span>
+                        <label for="sure-pwd"><input type="text" autocomplete="off" onclick="this.type='password'" class="sure-pwd" name="surePwd" id="sure-pwd" maxlength="16" minlength="6"><em class="top"></em><em class="bottom"></em></label>
+                    </div>
+                    <div class="forget-pwd-btn">
+                        <button onclick="return false;">确认</button>
+                    </div>
+                </form>
+                <div class="login-btn">
+                    <a href="login.html">返回登录</a>
+                </div>
+            </div>
+        </section>
+        <footer class="app-footer">
+            <div><em class="left"></em><span>蓝润智能账户系统</span><em class="right"></em></div>
+        </footer>
+        <div class="set-result-model">
+            <div class="set-result">重置成功</div>
+        </div>
+    </div>
+    <script src="js/constant.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/forget_pwd.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>绑定系统</title>
+    <script src="js/autoAdapt.js"></script>
+    <meta name="keywords" content="蓝润，金宝行，账户系统，绑定系统">
+    <meta name="description" content="蓝润，金宝行，账户系统，绑定系统">
+    <meta name="author" content="yangshao">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="icon" href="images/logo-inner.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles/bind_sys.css">
+</head>
+<body>
+    <div id="app">
+        <header class="app-header">
+            <div class="app-header-body clearfix overflow-top">
+                <a href="index.html" class="float-left"><img src="images/body_logo.png" alt="logo"></a>
+                <div class="float-right">
+                    <em>134****6449</em>，欢迎使用蓝润智能账户系统 <a href="set_basics.html">设置</a><span onclick="showModel(event,'.exit-model')">退出</span>
+                </div>
+            </div>
+        </header>
+        <section class="app-section">
+            <div class="app-section-body">
+                <div class="app-section-content">
+                    <div class="head-portrait">
+                        <img src="images/default_head.png" alt="头像">
+                    </div>
+                    <div class="app-section-sys active">
+                        <h2>请输入OA系统的账号密码</h2>
+                        <form class="bind-sys-form">
+                            <div class="bind-username">
+                                <span class="label">账号</span><span class="error-title"><em></em><span></span></span>
+                                <label for="username"><input type="text" autocomplete="off" class="username" name="username" id="username" maxlength="11"><em class="username_correct login_mobile_correct"></em></label>
+                            </div>
+                            <div class="bind-pwd">
+                                <span class="label">密码</span><span class="error-title"><em></em><span></span></span>
+                                <label for="pwd"><input type="text" autocomplete="off" onfocus="this.type = 'password'" class="pwd" name="pwd" id="pwd" maxlength="16" minlength="6"><em class="top"></em><em class="bottom"></em></label>
+                            </div>
+                            <div class="btn clearfix">
+                                <button class="float-left" onclick="return false;">确定</button>
+                                <a href="sys_list.html" class="float-right">返回</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="bind-result">设置成功</div>
+                </div>
+            </div>
+        </section>
+        <!--退出提示框-->
+        <div class="exit-model">
+            <div class="exit-info"><em class="close-icon" onclick="closeModel(event,'.exit-model')"></em>
+                <p>确认退出账号<span>139****9478</span>吗？</p>
+                <div>
+                    <button class="delete-sure" onclick="sureModel(event,'.exit-model',exitLoginSure)">确定</button>
+                    <button class="delete-reset" onclick="closeModel(event,'.exit-model')">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/constant.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/bind_sys.js"></script>
+</body>
+</html>

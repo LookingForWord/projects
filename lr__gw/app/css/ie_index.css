@@ -1,0 +1,14 @@
+/* line 2, sass/ie_index.scss */
+.index-business-app-right-content > div div {
+  background: url(../images/ie_ewm_bg.png) no-repeat 0 0;
+  -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+       background-size: 100% 100%;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ie_ewm_bg.png',  sizingMethod='scale');
+  border: none;
+}
+
+/* line 8, sass/ie_index.scss */
+.index-business {
+  padding: 0;
+}

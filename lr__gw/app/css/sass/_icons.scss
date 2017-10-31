@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+  CSS Sprites
+*/
+/*引入sprites*/
+//@import "compass/utilities/sprites";
+////div{
+////  @include fwfw-sprites("fwfw_icon3");
+////}
+////是否可以定义单个图标 与@include fwfw-sprites("fwfw_icon3");一起使用
+//$disable-magic-sprite-selectors:true;
+////sprites的排布方式 horizontal--水平 diagonal--对角线 smart--节省最大空间布局  不设置即垂直布局
+//$fwfw-layout:smart;
+////是否设置元素的宽高
+//$fwfw-sprite-dimensions:true;
+////引入图片
+////@import "fwfw/*.png";
+////生成相关类样式
+////@include all-fwfw-sprites;

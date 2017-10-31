@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import "sysCommon";
+#app{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+.personal-finance-banner{
+  width:100%;
+  height:100%;
+  background-color: #fff;
+  @extend .float-left;
+  padding-bottom:88px;
+  box-sizing: border-box;
+}
+.personal-finance-business{
+  @extend .float-left;
+  width:100%;
+  height:434px;
+  background-color: #fff;
+}
+.footer{
+  @extend .float-left;
+  position: static;
+}
+.personal-finance-banner-body{
+  width:100%;
+  height:100%;
+  background:url(../images/person_finance_bg.png) no-repeat center center;
+  background-size:cover;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/person_finance_bg.png',  sizingMethod='scale');
+}
+.personal-finance-banner-content{
+  width:980px;
+  height:100%;
+  margin: 0 auto;
+  position: relative;
+  div{
+    color:#fff;
+    width:100%;
+    height:144px;
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top:-72px;
+  }
+  h2{
+    font-size:56px;
+    height:72px;
+    line-height:72px;
+    font-weight: normal;
+  }
+  p{
+    font-size:32px;
+    line-height:72px;
+    height:72px;
+  }
+}
+.personal-finance-business-body{
+  width:980px;
+  height:100%;
+  margin:0 auto;
+  position: relative;
+  div.float-left{
+    height:500px;
+    width:312px;
+    position: absolute;
+    top:-185px;
+    &:first-child{
+      left:0;
+    }
+    &:nth-child(2){
+      left:334px;
+    }
+    &:nth-child(3){
+      right:0;
+    }
+  }
+  div.float-left+div.float-left{
+      left:334px;
+  }
+  div.float-left+div.float-left+div.float-left{
+    left:668px;
+  }
+}
+.personal-finance-business-normal{
+  width:297px;
+  height:474px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-148.5px;
+  margin-top:-237px;
+  background-color: #fff;
+  transition: all .3s;
+  &.active{
+    height:500px;
+    width:312px;
+    margin-left:-156px;
+    margin-top:-250px;
+  }
+}
+.personal-finance-title{
+  width:100%;
+  height:38%;
+  background: url(../images/blue_coin_bg.png) no-repeat center center;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/blue_coin_bg.png',  sizingMethod='scale');
+  background-size:100% 100%;
+  position: relative;
+  h2{
+    font-size:40px;
+    font-weight: normal;
+  }
+  p{
+    margin-top:16px;
+    font-size:14px;
+    color:#FFFFFF;
+  }
+  div{
+    color:#fff;
+    padding:0 24px;
+    height:40px;
+    //width:100%;
+    box-sizing: border-box;
+    position: absolute;
+    top:50%;
+    margin-top:-20px;
+    left:0;
+  }
+}
+.personal-finance-content{
+  width:100%;
+  height:62%;
+  box-shadow: 3px 0 5px #eee,-3px 0 5px #eee,0 3px 5px #eee,0 0 0 #fff;
+  position: relative;
+  box-sizing: border-box;
+  img{
+    width: 127px;
+    height:89px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top:-44.5px;
+    margin-left:-63.5px;
+  }
+  ul{
+    //width:100%;
+    height:100%;
+    padding:34px 15px;
+    box-sizing: border-box;
+    li{
+      h4{
+        font-size:18px;
+        line-height:22px;
+        height:22px;
+        color:#212121;
+        font-weight: normal;
+      }
+      p{
+        font-size:14px;
+        height:24px;
+        line-height:24px;
+        color:#BDBDBD;
+      }
+      margin-top:14px;
+      &:first-child{
+        margin-top:0;
+      }
+    }
+  }
+}
+.car-loan .personal-finance-title{
+  background-image:url(../images/car_loan_bg.png);
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/car_loan_bg.png',  sizingMethod='scale');
+  div{
+    height:70px;
+    margin-top:-35px;
+  }
+}
+.house-loan .personal-finance-title{
+  background-image:url(../images/house_loan_bg.png);
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/house_loan_bg.png',  sizingMethod='scale');
+  div{
+    height:70px;
+    margin-top:-35px;
+  }
+}
