@@ -36,3 +36,4 @@ export const HOME_LIST = `${BASE_URL}/homelist`
 export const SEARCH_LIST = `${BASE_URL}/searchlist`
 export const DETAIL_INFO = `${BASE_URL}/detail/info`
 export const DETAIL_COMMENT = `${BASE_URL}/detail/comment`
+export const ORDER_LIST = `${BASE_URL}/orderlist`

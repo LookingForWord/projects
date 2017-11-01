@@ -62,6 +62,16 @@ router.get('/web/detail/comment/:page/:id',function *(next){
 
     this.body = detailComment
 })
+
+//订单列表
+const orderList = require('./orderlist/orderList');
+router.get('/web/orderlist/:username',function *(next){
+    console.log('订单列表')
+    console.log(this.params)
+
+    this.body = orderList
+})
+
 /**
  * 开始服务并生成路由
  */
