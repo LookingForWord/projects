@@ -10,7 +10,7 @@ var baseConfig = require('./config/webpack.base.config')
 module.exports = merge(baseConfig,{
     output:{
         filename:"bundle.js",
-        publicPath: "/",
+        publicPath:config.PUBLIC_PATH
     },
 
     module:{
@@ -45,7 +45,8 @@ module.exports = merge(baseConfig,{
         //向js中暴露当前环境  可在业务js代码中使用（dev模式下可以提示错误、测试报告等, production模式不提示）
         new webpack.DefinePlugin({
             'process.env': {
-                NODE_ENV:config.NODE_ENV
+                NODE_ENV:config.NODE_ENV,
+                PUBLIC_PATH:JSON.stringify(config.PUBLIC_PATH)
             }
         })
     ],

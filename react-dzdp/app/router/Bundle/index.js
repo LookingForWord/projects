@@ -1,0 +1,51 @@
+/**
+ * 懒加载容器
+ */
+import React from 'react'
+
+export class Bundle extends React.Component{
+    constructor(props){
+        super(props);
+
+        this.state = {
+            mod: null
+        }
+    }
+
+    componentWillMount() {
+        this.load(this.props)
+    }
+
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.load !== this.props.load) {
+            this.load(nextProps)
+        }
+    }
+
+    load(props) {
+        this.setState({
+            mod: null
+        })
+        props.load((mod) => {
+            this.setState({
+                mod: mod.default ? mod.default : mod
+            })
+        })
+    }
+
+    render() {
+        return this.props.children(this.state.mod)
+    }
+}
+
+/**
+ * 包裹异步组件
+ */
+const AsyncComponent = (props) => (
+    <Bundle load={props.component}>
+        { Mod => Mod ? <Mod {...props.requireProps}/> : null }
+    </Bundle>
+);
+
+export default AsyncComponent
+

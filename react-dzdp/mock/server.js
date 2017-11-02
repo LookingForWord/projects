@@ -72,6 +72,17 @@ router.get('/web/orderlist/:username',function *(next){
     this.body = orderList
 })
 
+//提交评论
+router.post('/web/submitcomment',function *(next){
+    console.log('提交评论');
+    console.log(this.request)
+
+    this.body = {
+        errno:0,
+        msg:'ok'
+    }
+})
+
 /**
  * 开始服务并生成路由
  */

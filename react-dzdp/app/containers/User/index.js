@@ -7,7 +7,7 @@ import UserComponent from '../../components/User'
 import {connect} from 'react-redux'
 import mapStateToProps from '../../util/mapStateToProps'
 import {$http} from '../../fetch'
-import {ORDER_LIST} from '../../constants'
+import {ORDER_LIST,SUBMIT_COMMENT} from '../../constants'
 
 class User extends BaseComponent {
     constructor(props, context) {
@@ -23,6 +23,7 @@ class User extends BaseComponent {
             username={userInfo.username}
             cityName={userInfo.cityName}
             data={this.state.data}
+            submitComment= { this.submitComment.bind(this)}
         />
     }
 
@@ -42,6 +43,14 @@ class User extends BaseComponent {
 
         const result = $http({url: ORDER_LIST, data: {username}});
         result.then( response => this.setState({data:response}));
+    }
+
+    //提交评价
+    submitComment(data,callback){
+        const result = $http({url:SUBMIT_COMMENT,data,method:"POST"});
+        result.then(response => {
+            if(response.errno === 0) callback();
+        })
     }
 }
 

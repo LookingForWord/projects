@@ -18,7 +18,7 @@ module.exports = merge(baseConfig,{
     output: {
         path:__dirname + '/build',
         filename: "js/[name].[hash:8].js",
-        publicPath: "/react-dzdp/build/",
+        publicPath: config.PUBLIC_PATH,
     },
 
     module: {
@@ -67,7 +67,8 @@ module.exports = merge(baseConfig,{
         //定义生产环境
         new webpack.DefinePlugin({
             'process.env': {
-                NODE_ENV:config.NODE_ENV
+                NODE_ENV:config.NODE_ENV,
+                PUBLIC_PATH:JSON.stringify(config.PUBLIC_PATH)
             }
         }),
 

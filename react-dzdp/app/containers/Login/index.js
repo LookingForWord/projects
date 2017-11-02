@@ -8,6 +8,8 @@ import * as userInfoActions from '../../actions/userInfo'
 import mapStateToProps from '../../util/mapStateToProps'
 import mapDispatchToProps from '../../util/mapDispatchToProps'
 import LoginComponent from '../../components/Login'
+import sessionStore from '../../util/sessionStore'
+import {USERNAME} from '../../constants'
 
 class Login extends BaseComponent{
     constructor(props,context){
@@ -48,6 +50,8 @@ class Login extends BaseComponent{
         let userInfo = this.props.userInfo;
         userInfo.username = username;
         actions.updateAction(userInfo);
+        //存储到session中
+        sessionStore.setItem(USERNAME,username);
 
         //跳转页面
         const {match:{params},history} = this.props;

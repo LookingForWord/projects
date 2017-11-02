@@ -12,7 +12,7 @@ const User = (props) => {
         <div className="user-container">
             <Header title="用户主页" backRouter="/"/>
             <UserInfo username={props.username} cityName={props.cityName}/>
-            <OrderList data={props.data}/>
+            <OrderList data={props.data} submitComment= { props.submitComment}/>
         </div>
     );
 }

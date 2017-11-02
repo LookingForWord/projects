@@ -5,6 +5,9 @@
 //用户城市名称
 export const CITY_NAME = 'USER_CURRENT_CITY_NAME'
 
+//用户名
+export const USERNAME = 'USERNAME'
+
 //重置state
 export const RESET_STATE = 'RESET_STATE'
 
@@ -37,3 +40,4 @@ export const SEARCH_LIST = `${BASE_URL}/searchlist`
 export const DETAIL_INFO = `${BASE_URL}/detail/info`
 export const DETAIL_COMMENT = `${BASE_URL}/detail/comment`
 export const ORDER_LIST = `${BASE_URL}/orderlist`
+export const SUBMIT_COMMENT = `${BASE_URL}/submitcomment`

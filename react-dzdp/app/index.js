@@ -8,9 +8,18 @@ import configureStore from '@/store'
 import RouterMap from './router'
 import './static/css/common'
 import './static/css/font'
+import {CITY_NAME,USERNAME} from './constants'
+import localStore from './util/localStore'
+import sessionStore from './util/sessionStore'
 
 //创建Store对象
-const store = configureStore();
+const initialState = {
+    userInfoState:{
+        cityName:localStore.getItem(CITY_NAME),
+        username:sessionStore.getItem(USERNAME)
+    }
+}
+const store = configureStore(initialState);
 
 
 if (process.env.NODE_ENV === 'dev') {

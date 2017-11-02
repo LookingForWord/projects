@@ -9,7 +9,7 @@ const OrderList = (props) => {
             <h2>您的订单</h2>
             <div className="order-list">
                 {
-                    props.data.map((item,index) => <Item data={item} key={index}/>)
+                    props.data.map((item,index) => <Item data={item} key={index} submitComment= { props.submitComment}/>)
                 }
             </div>
         </div>

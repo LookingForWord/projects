@@ -3,4 +3,5 @@
  */
 module.exports = {
     NODE_ENV: '"dev"',
+    PUBLIC_PATH:"/"
 }
