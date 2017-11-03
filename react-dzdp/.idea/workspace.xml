@@ -311,7 +311,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-server-render" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="F:/node/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -439,12 +439,12 @@
       <workItem from="1509414211929" duration="11351000" />
       <workItem from="1509498044373" duration="7868000" />
       <workItem from="1509583928648" duration="22465000" />
-      <workItem from="1509669849953" duration="8420000" />
+      <workItem from="1509669849953" duration="9024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225653000" />
+    <option name="totallyTimeSpent" value="226257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

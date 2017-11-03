@@ -1,0 +1,168 @@
+#React 服务端渲染
+    #Node.js作为中间层实现服务端渲染
+
+    #服务端渲染好处
+        #SEO，让搜索引擎更容易读取页面内容
+        #首屏渲染速度更快，无需等待js文件下载执行的过程
+        #更易于维护，服务端和客户端可以共享某些代码
+
+    #原理
+                                    客户端 --> JS CSS --> HTML
+        API(Java、PHP、Node) -->      |公共组件(React、Redux)
+                                    服务端(Node) --> HTML
+    #同构方案
+        #服务端渲染的前提：以Virtual DOM的形式保存在内存中
+
+        #对于客户端 通过调用ReactDOM.render方法把Virtual DOM转换成真实DOM最后渲染到界面
+            import { render } from 'react-dom'
+            import App from './App'
+
+            render(<App />, document.getElementById('root'))
+        #对于服务端，通过调用ReactDOMServer.renderToString方法把Virtual DOM转换成HTML字符串返回给
+         客户端从而达到服务端渲染的目的
+            import {renderToString} from 'react-dom/server'
+            import App from './App'
+
+            async function(ctx){
+                await ctx.render('index',{
+                    root:renderToString(<App/>)
+                })
+            }
+    #状态管理方案
+        使用Redux来管理React组件的非私有组件状态，并配合社区中强大的中间件Devtools Thunk Promise来扩充应用。
+        当进行服务端渲染时创建store实例后把初始状态传给客户端，客户端拿到初始状态后把它作为预加载状态来创建
+        store实例。否则客户端上生成的markup与服务端生成的markup不匹配，客户端将不得不再次加载数据，造成没必要
+        的性能消耗。
+
+        #服务端
+            import {renderToString} from 'react-dom/server'
+            import {Provider} from 'react-redux'
+            import {createStore} from 'redux'
+            import App from './App'
+            import rootReducer from './reducers'
+
+            const store = createStore(rootReducer);
+
+            async function(ctx){
+                await ctx.render('index',{
+                    root:renderToString(
+                        <Provider store={store}>
+                            <App/>
+                        </Provider>
+                    ),
+                    state:store.getState()
+                })
+            }
+        #HTML
+            <body>
+                <div id='root'><%- root%></div>
+                <script>
+                    window.REDUX_STATE = <%-JSON.stringify(state) %>
+                </script>
+            </body>
+        #客户端
+            import {render} from 'react-dom'
+            import {Provider} from 'react-redux'
+            import {createStore} from 'redux'
+            import App from './App'
+            import rootReducer from './reducers'
+
+            const store = createStore(rootReducer,window.REDUX_STATE);
+
+            render(
+                <Provider store={store}>
+                    <App/>
+                </Provider>,
+                document.getElementById('root')
+            );
+    #路由方案
+        客户端可以不依赖服务端，根据hash方式或者调用history API，不同的URL渲染不同的视图，
+        实现无缝的页面切换，用户体验极佳。但服务端渲染不同的地方在于，在渲染之前，必须根
+        据URL正确找到相匹配的组件返回给客户端。
+
+        #React Router为服务端渲染提供了两个API：
+            match -->在渲染之前根据URL匹配路由组件
+            RoutingContext --> 以同步的方式渲染路由组件
+
+        #服务端
+            import {renderToString} from 'react-dom/server'
+            import {Provider} from 'react-redux'
+            import {createStore} from 'redux'
+            import {match,RouterContext} from 'react-router'
+            import rootReducer from './reducers'
+            import routes from './routes'
+
+            const store = createStore(rootReducer);
+            async function clientRoute(ctx,next){
+                let _renderProps;
+
+                match({routes,location:ctx.url},(err,redirectLocation,renderProps) => {
+                    _renderProps = renderProps;
+                })
+
+                if(_renderProps){
+                    await ctx.render('index',{
+                        root:renderToString(
+                            <Provider store={store}>
+                                <RouterContext {..._renderProps} />
+                            </Provider>
+                        ),
+                        state:store.getState()
+                    })
+                }else{
+                    await next();
+                }
+            }
+        #客户端
+            import { Route, IndexRoute } from 'react-router'
+            import Common from './Common'
+            import Home from './Home'
+            import Explore from './Explore'
+            import About from './About'
+
+            const routes = (
+                <Route path="/" component={Common}>
+                    <IndexRoute component={Home} />
+                    <Route path="explore" component={Explore} />
+                    <Route path="about" component={About} />
+                </Route>
+            )
+
+            export default routes
+
+    #静态资源处理方案
+        在客户端中我们使用了大量的ES6/7语法，jsx语法 css资源 图片资源，最终通过webpack配合各种loader打包成一个文件
+        最后运行在浏览器环境中。但是在服务端，不支持这些，可以使用相关工具插件使得Node.js解析器能够加载并执行这类
+        代码。
+
+        #开发环境
+            #引入babel-polyfill这个库来支持ES6环境
+                require('babel-polyfill')
+            #babel-register,这是个require钩子，会自动对require命令所加载的js文件进行实时转码，这个库只适用于开发环境。
+                require('babel-register')({presets: ['es2015', 'react', 'stage-0']})
+            #css-modules-require-hook,针对样式文件的钩子，由于我们采用的是CSS Modules方案，并且使用SASS来书写代码，所以
+             需要node-sass这个前置编译器来识别扩展名为.scss的文件，当然你也可以采用LESS的方式，通过这个钩子，自动提取
+             className哈希字符注入到服务端的React组件中。
+                require('css-modules-require-hook')({
+                    extensions:['.scss'],
+                    preprocessCss:(data,filename) => require('node-sass').renderSync({data,file:filename}).css,
+                    camelCase:true,
+                    generateScopedName:'[name]__[local]__[hash:base64:8]'
+                });
+            #asset-require-hook,来识别图片资源，对于小于8k的图片转换成base64字符串，大于8k的图片转换成路径引用。
+                require('asset-require-hook')({
+                    extensions:['jpg','png','gif','webp'],
+                    limit:8000
+                })
+        #产品环境
+            使用webpack分别对客户端和服务端代码进行打包。客户端代码打包这里不说了，对于服务端代码，需要指定运行环境为node
+            并且提供polyfill，设置__filename和__dirname为true，由于是采用CSS Modules，服务端只需获取className,而无需加载样式
+            代码，所以要使用css-loader/locals替代css-loader加载样式文件。
+
+
+
+
+
+
+
+
