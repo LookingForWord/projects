@@ -10,7 +10,9 @@ import {connect} from 'react-redux'
 import mapStateToProps from '@/util/mapStateToProps'
 import mapDispatchToProps from '@/util/mapDispatchToProps'
 import * as homeActions from '../../actions/home'
+import {resetStateAction} from '../../actions/resetState'
 import List from './subpage/List'
+
 class Home extends BaseComponent{
     render(){
         return (
@@ -21,6 +23,7 @@ class Home extends BaseComponent{
                 <List  homeListAction={this.props.homeActions.homeListAction}
                       cityName={this.props.userInfo.cityName}
                       homeList={this.props.home.homeList}
+                       resetStateAction = {this.props.resetStateAction}
                 />
             </div>
         );
@@ -33,4 +36,4 @@ class Home extends BaseComponent{
     }
 }
 
-export default connect(mapStateToProps({userInfo:'userInfoState',home:'homeState'}),mapDispatchToProps({homeActions}))(Home)
+export default connect(mapStateToProps({userInfo:'userInfoState',home:'homeState'}),mapDispatchToProps({homeActions,resetStateAction}))(Home)

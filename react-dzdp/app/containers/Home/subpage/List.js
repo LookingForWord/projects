@@ -32,6 +32,11 @@ export default class List extends BaseComponent{
         const {homeListAction,cityName,homeList} = this.props;
         homeListAction({cityName,page:homeList.page});
     }
+
+    componentWillUnmount(){
+        const {resetStateAction} = this.props;
+        resetStateAction({payload:{name:"homeList"}});
+    }
 }
 
 

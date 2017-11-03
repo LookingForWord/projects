@@ -10,6 +10,7 @@ class Search extends BaseComponent{
 
     render(){
         const {match:{params}} = this.props;
+
         return (
             <div className="search">
                 <SearchHeader keyword={params.keyword}/>

@@ -32,6 +32,10 @@ export default class SearchInput extends BaseComponent{
         })
     }
 
+    componentWillReceiveProps(nextProps){
+        if(this.props.value !== nextProps.value)this.setState({value:nextProps.value})
+    }
+
     changeHandle(e){
         this.setState({
             value:e.target.value

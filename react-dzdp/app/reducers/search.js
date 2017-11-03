@@ -19,7 +19,7 @@ const searchListReducer = reducersFilter(reducersAsyncCreator({page:0,hasMore:fa
             //initItem:action.payload.cityName
         });
     },
-    [RESET_STATE]:(state,action) => Object.assign({},state.initState)
+    [RESET_STATE]:(state,action) => Object.assign({},state,state.initState)
 }),action => action.payload.name === 'searchList');
 
 export default searchListReducer

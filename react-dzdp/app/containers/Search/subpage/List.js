@@ -62,6 +62,11 @@ class List extends BaseComponent{
 
         searchListAction({cityName,page:searchListData.page,category:params.category,keyword:params.keyword ? params.keyword : ''});
     }
+
+    componentWillUnmount(){
+        const {resetStateAction} = this.props;
+        resetStateAction({payload:{name:"searchList"}});
+    }
 }
 
 export default connect(

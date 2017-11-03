@@ -101,3 +101,7 @@
         字体图标生成器网站
 #轮播 使用react-swipe
     npm install swipe-js-iso react-swipe -S
+
+#部署配置
+    当使用HashRouter时可以不配置404重定向到首页 且没必要设置router的basename
+    当使用BrowserRouter是需要设置router的basename并且配置404重定向到首页

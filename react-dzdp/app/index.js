@@ -1,6 +1,7 @@
 /**
  * 应用入口模块
  */
+import './polyfill'
 import React from 'react'
 import {render} from 'react-dom'
 import {Provider} from 'react-redux'

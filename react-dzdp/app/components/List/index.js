@@ -9,7 +9,9 @@ export default (props) => {
     return (
         <div className="list-container">
             {
-                props.data.map((item,index) => <Item key={index} data={item}/>)
+                props.data ?
+                    props.data.map((item,index) => <Item key={index} data={item}/>)
+                    : null
             }
         </div>
     );

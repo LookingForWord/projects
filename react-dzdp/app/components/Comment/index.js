@@ -8,7 +8,7 @@ import LoadMore from '../LoadMore'
 import './style.scss'
 
 const Comment = (props) => {
-    console.log(props)
+
     return (
         <div className="detail-comment-container">
             <h2>用户点评</h2>

@@ -46,6 +46,8 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "es6-object-assign": "^1.1.0",
+    "es6-promise-polyfill": "^1.2.0",
     "isomorphic-fetch": "^2.2.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
