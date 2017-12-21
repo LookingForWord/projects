@@ -1,0 +1,62 @@
+.financial-business-container{
+  margin:0 auto;
+  width:1180px;
+  font-size: 0;
+  padding-bottom:60px;
+
+  h2{
+    font-size: 20px;
+    font-weight: bold;
+    color:#212121;
+    line-height: 1.5;
+    margin:35px 0 55px;
+  }
+}
+
+.financial-business-items{
+  height:166px;
+  overflow: hidden;
+  text-align: center;
+
+  .img-container{
+    height:60px;
+
+    a{
+      height:100%;
+      display: block;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+
+  h4{
+    font-size: 16px;//24
+    color:#212121;
+    font-weight: bold;
+    line-height: 1.5;
+    height:24px;
+    padding:0 30px;
+    margin-bottom:26px;
+    margin-top:16px;
+  }
+
+  .financial-business-item{
+    width:20%;
+  }
+
+  .detail{
+    display: block;
+    width:140px;
+    height:40px;
+    margin:0 auto;
+    font-size:16px;
+    line-height: 40px;
+    border-radius: 20px;
+    color:#fff;
+    background-color: #A1753A;
+
+    &:hover{
+      background-color: #775936;
+    }
+  }
+}

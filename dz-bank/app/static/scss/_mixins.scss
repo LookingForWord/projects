@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*最小宽高*/
+@import "compass/utilities/general/min";
+@mixin min-width-height($list){
+  @each $key,$value in $list{
+    @if $key == "$width"{
+      @include min-width($value);
+    }@else if $key == "$height" {
+      @include min-height($value);
+    }
+  }
+}
+
+/*table*/
+@import "compass/utilities/tables";
+@mixin table-border($list){//($outer:($width,$color),$inner:($width,$color))
+  @each $key,$value in $list{
+    @if $key == "$outer" {
+        @include  outer-table-borders(nth($value,1),nth($value,2));
+    }@else if $key == "$inner"{
+      @include  inner-table-borders(nth($value,1),nth($value,2));
+    }
+  }
+}
+
+/*opacity*/
+@import "compass/css3/opacity";
+@mixin cross-opacity($value){
+  @include opacity($value);
+}
+
+/*兼容圆角*/
+@mixin border-radius($value){
+  border-radius: $value;
+  //behavior: url(resource/PIE.htc);
+}
+
+/*兼容box-shadow*/
+@mixin box-shadow($value...){
+  box-shadow:$value;
+  //behavior:url(resource/PIE.htc);
+}
+
+/*兼容渐变--safari chrome低版本没兼容*/
+@mixin linear-gradient($deg,$value...){//不能用to bottom定方向  可以用deg定方向
+  background:-webkit-linear-gradient($deg,$value);
+  background:-moz-linear-gradient($deg,$value);
+  background:-o-linear-gradient($deg,$value);
+  background:-ms-linear-gradient($deg,$value);
+  background:linear-gradient($deg,$value);
+  -pie-background:linear-gradient($deg+270,$value);//-pie-background 自定义属性  兼容ie必须的
+  //behavior:url(resource/PIE.htc);
+}

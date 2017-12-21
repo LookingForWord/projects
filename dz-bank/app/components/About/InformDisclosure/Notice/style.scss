@@ -1,0 +1,48 @@
+.inform-notice-main{
+  margin: 40px - 3.5 0;
+  height:415px - 21 - 36.5*2 - 19;
+  overflow: hidden;
+}
+
+.inform-notice-item{
+  font-size: 0;
+  margin-top:26px - 7;
+
+  &:first-child{
+    margin-top: 0;
+  }
+
+  a{
+    display: block;
+    color:#424242;
+
+    &:hover{
+      color:#A1753A;
+    }
+  }
+
+  span{
+    font-size:14px;//21
+    font-weight: bold;
+    line-height: 1.5;
+
+    &.float-left{
+      width:50%;
+    }
+  }
+}
+
+.inform-notice-page-container{
+  border-top: 1px solid #E0E0E0;
+  padding:26px 0 0;
+}
+
+.inform-notice-content{
+  padding-bottom:36px !important;
+}
+
+.inform-notice-item-empty{
+  color:#424242;
+  font-size:14px;//21
+  line-height: 1.5;
+}

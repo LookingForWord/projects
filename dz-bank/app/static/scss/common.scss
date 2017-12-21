@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*定义跨浏览器的能力*/
+@import "compass/support";
+$browser-minimum-versions:("chrome": null, "firefox": "2", "ie": "6", "safari": null, "opera": null);
+@import "common";
+/**
+ *样式重置
+ */
+@import "compass/reset";
+
+/*清除浮动*/
+@import "compass/utilities/general/clearfix";
+.clear-fix{
+    @include legacy-pie-clearfix;
+}
+
+/*左右浮动*/
+@import "compass/utilities/general/float";
+.float-left{
+    @include float-left;
+}
+.float-right{
+    @include float-right;
+}
+
+/*让子元素能够使用父元素的样式  特别是 li下的a标签*/
+@import "compass/typography/links/unstyled-link";
+.inherited{
+    @include unstyled-link;
+}
+
+/*hover 添加下划线*/
+@import "compass/typography/links/hover-link";
+.underline-hover{
+    @include hover-link;
+}
+
+/*文本单行省略号 需要安装compass install compass/ellipsis*/
+$use-mozilla-ellipsis-binding: true;
+@import "compass/typography/text/ellipsis";
+.text-ellipsis{
+    @include ellipsis();
+}
+
+/*display:inline-block的跨浏览器样式*/
+@import "compass/css3/inline-block";
+.inline-block{
+    @include inline-block;
+}
+
+.overflow-top{
+    display: table;
+}
+
+html,body {
+    font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+}
+
+a {
+    text-decoration: none;
+}
+

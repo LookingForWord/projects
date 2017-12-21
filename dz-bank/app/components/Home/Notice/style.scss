@@ -1,0 +1,108 @@
+.notice-container{
+  margin:40px - 5 auto 0;
+  width:1180px;
+  overflow: hidden;
+
+  h2{
+    font-size:20px;
+    color:#212121;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+    a{
+      width:64px;
+      height:26px;
+      margin-left:10px;
+      border-radius: 13px;
+      font-size:14px;
+      color:#212121;
+      border: 1px solid #C2C2C2;
+      line-height: 26px;
+      position: relative;
+      top:-1px;
+      text-align: center;
+
+      &:hover{
+        color:#A1753A;
+
+        .more-icon{
+          background-image:url(./images/more_icon_active.png)
+        }
+      }
+    }
+  }
+
+  .more-icon{
+    margin-left:4px;
+    width:9px;
+    height:15px;
+    position: relative;
+    top:-2px;
+    background: url(./images/more_icon.png) no-repeat center center;
+  }
+}
+
+.notice-items{
+  height:93.5px;
+  overflow: hidden;
+  margin-bottom:40px - 3.5;
+}
+
+.notice-item{
+  width:(1180px - 60)/4;
+  height:93.5px;
+  margin-left:20px;
+  overflow: hidden;
+  &:first-child{
+    margin-left:0
+  }
+
+  .notice-title{
+    position: relative;
+    height:28px;
+
+    em{
+      font-style: normal;
+      font-size:14px;
+      color:#fff;
+      width:48px;
+      text-align: center;
+      height:28px;
+      line-height: 28px;
+      background-color: #A1753A;
+      border-radius: 3px;
+      position: absolute;
+      top:0;
+      left:0;
+    }
+
+    a{
+      display: block;
+      height:28px;
+      line-height: 28px;
+      padding-left:60px;
+      font-size:16px;
+      color:#212121;
+      font-weight: bold;
+
+      &:hover{
+        color:#775936;
+      }
+    }
+  }
+}
+
+.notice-desc{
+  margin-top:20px - 3.5;
+  margin-bottom:7px;
+  font-size:14px;//7
+  line-height: 1.5;
+  color:#555555;
+}
+
+.notice-time{
+  line-height: 1.5;//7
+  font-size:14px;
+  color:#BDBDBD;
+}

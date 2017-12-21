@@ -1,0 +1,190 @@
+.corporate-loan-main{
+  margin:40px 0 15px;
+  height:515px;
+  overflow: hidden;
+
+  .btn{
+    text-align: center;
+    margin-top:40px;
+
+    button{
+      width:120px;
+      height:40px;
+      line-height: 40px;
+      font-size: 16px;
+      padding:0;
+      margin: 0;
+      box-sizing: border-box;
+      outline: none;
+      background-color: #A1753A;
+      cursor: pointer;
+      font-weight: bold;
+      color:#fff;
+      border-radius: 4px;
+      border:none;
+
+
+      &:first-child{
+        border:1px solid #E0E0E0;
+        background-color: #fff;
+        color:#757575;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.corporate-loan-form-item{
+  height:35px;
+  border-bottom: 1px solid #E4E4E4;
+  position: relative;
+  font-size: 0;
+
+  &:first-child{
+    height:34px;
+    border-top: 1px solid #E4E4E4;
+  }
+
+  span{
+    width:200px;
+    font-size: 14px;
+    height:34px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: baseline;
+  }
+
+  input{
+    border: 1px solid #E4E4E4;
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    margin:0;
+    height:35px;
+    position: absolute;
+    text-align: center;
+    top:0;
+    right:0;
+    padding:0;
+    //box-sizing: border-box;
+  }
+
+  &>div{
+    position: relative;
+  }
+}
+
+.corporate-loan-form{
+  height:434px;
+  border: 1px solid #E4E4E4;
+  border-top:none;
+  border-bottom: none;
+
+  .loan-purpose-item,.business-date-item,.apply-type-item{
+    border-left: 1px solid #E4E4E4;
+    height:73px;
+    width:673px;
+    line-height: 36px;
+    position: absolute;
+    top:0;
+    right:0;
+
+    input{
+      width:0 !important;
+      height:0 !important;
+      visibility:hidden;
+    }
+
+    label{
+      font-size: 14px;
+      color:#424242;
+      height:16px;
+      line-height: 16px;
+      padding-left:24px;
+      position: relative;
+      margin-left:40px;
+
+      em{
+        position: absolute;
+        top:0;
+        left:0;
+        border: 1px solid #E3E3E3;
+        width:14px;
+        height:14px;
+        border-radius: 7px;
+
+        b{
+          position: absolute;
+          top:50%;
+          left:50%;
+          width:6px;
+          height:6px;
+          margin-left:-3px;
+          margin-top: -3px;
+          border-radius: 3px;
+          background-color: #fff;
+          display: none;
+        }
+
+        &.active{
+          background-color: #A1753A;
+          border-color:transparent;
+
+          b{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .loan-purpose-item,.business-date-item{
+    height:35px;
+    line-height: 35px;
+  }
+
+  .username,.business-scope,.main-product,.legal-person,.line-credit{
+
+    input{
+      width:874px - 1 - 200;
+      border-right:none;
+    }
+  }
+
+  .apply-type-form-item{
+    height:73px;
+
+    span{
+      height:73px;
+      line-height: 73px;
+    }
+  }
+
+  .register-date,.register-capital,.contacts,.contact-way,.address,.address-way{
+    width:50%;
+
+    input{
+      width:437px - 2 - 200;
+    }
+  }
+
+  .register-capital,.contact-way,.address-way{
+    input{
+      border-right: none;
+    }
+  }
+
+  input.loan-purpose-other{
+    width:150px !important;
+    height:15px !important;
+    visibility: visible;
+    border:none;
+    border-bottom:1px solid #E3E3E3;
+  }
+
+  .loan-purpose-label{
+    width:250px;
+  }
+}

@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="affac225-f554-408a-ab91-a7b00ab8d892" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/DLB/images/dfpk_banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/LHC/images/dfpk_banner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/banner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/company_business_header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/dhjj_img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/dhjj_img2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/fzzl_img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/fzzl_img2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_company_business.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_e_bank.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_financial_market.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_personal_business.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_product1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_product2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_product3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/home_product4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/personal_business_header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/product_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/product_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/product_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/product_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/scgyd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/scgyd1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/zkzyd.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/images/zkzyd1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/DLB/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/DLB/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/LHC/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/LHC/style.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/resource/股东信息.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/resource/达州银行企业文化宣传画及释义.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.zip" afterPath="$PROJECT_DIR$/build.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Culture/index.js" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Culture/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Culture/style.scss" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Culture/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Duty/index.js" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Duty/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Duty/style.scss" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Duty/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Honor/index.js" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Honor/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Intro/index.js" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Intro/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Intro/style.scss" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Intro/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Strategy/index.js" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Strategy/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Strategy/style.scss" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Strategy/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Structure/index.js" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Structure/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/CompanyProfile/Structure/style.scss" afterPath="$PROJECT_DIR$/app/components/About/CompanyProfile/Structure/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/ContactUs/Microblog/index.js" afterPath="$PROJECT_DIR$/app/components/About/ContactUs/Microblog/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/ContactUs/ServicePhone/index.js" afterPath="$PROJECT_DIR$/app/components/About/ContactUs/ServicePhone/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/ContactUs/ServiceSite/index.js" afterPath="$PROJECT_DIR$/app/components/About/ContactUs/ServiceSite/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/ContactUs/WeChat/index.js" afterPath="$PROJECT_DIR$/app/components/About/ContactUs/WeChat/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/BoardComposition/index.js" afterPath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/BoardComposition/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/BoardComposition/style.scss" afterPath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/BoardComposition/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/CommitteeComposition/index.js" afterPath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/CommitteeComposition/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/CommitteeComposition/style.scss" afterPath="$PROJECT_DIR$/app/components/About/InformDisclosure/Governance/CommitteeComposition/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/InformDisclosure/Notice/index.js" afterPath="$PROJECT_DIR$/app/components/About/InformDisclosure/Notice/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/OnlineService/ConsultComplaint/index.js" afterPath="$PROJECT_DIR$/app/components/About/OnlineService/ConsultComplaint/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/OnlineService/OnlineLoan/CorporateLoan/index.js" afterPath="$PROJECT_DIR$/app/components/About/OnlineService/OnlineLoan/CorporateLoan/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/OnlineService/OnlineLoan/PersonalLoan/index.js" afterPath="$PROJECT_DIR$/app/components/About/OnlineService/OnlineLoan/PersonalLoan/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/About/Recruit/RecruitNotice/index.js" afterPath="$PROJECT_DIR$/app/components/About/Recruit/RecruitNotice/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/CCT/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/CCT/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/JYD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/JYD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/LBD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/LBD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/QYD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/QYD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SCGYD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SCGYD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SCGYD/style.scss" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SCGYD/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SJD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SJD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/XEXYD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/XEXYD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/XHD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/XHD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/XYD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/XYD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZKZYD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZKZYD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZKZYD/style.scss" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZKZYD/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZZGYD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZZGYD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Agreement/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Agreement/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Current/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Current/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Feature/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Feature/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Fixed/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Fixed/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Inform/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/Deposit/Inform/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/Note/PJCD/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/Note/PJCD/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/CompanyBusiness/Note/PJTX/index.js" afterPath="$PROJECT_DIR$/app/components/CompanyBusiness/Note/PJTX/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/DepositCalculate/index.js" afterPath="$PROJECT_DIR$/app/components/DepositCalculate/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/EBank/CorporateEBank/index.js" afterPath="$PROJECT_DIR$/app/components/EBank/CorporateEBank/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/EBank/DirectBank/index.js" afterPath="$PROJECT_DIR$/app/components/EBank/DirectBank/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/EBank/MicroBank/index.js" afterPath="$PROJECT_DIR$/app/components/EBank/MicroBank/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/EBank/MobileEBank/index.js" afterPath="$PROJECT_DIR$/app/components/EBank/MobileEBank/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/EBank/PersonalEBank/index.js" afterPath="$PROJECT_DIR$/app/components/EBank/PersonalEBank/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/FinancialMarket/AssetsManage/index.js" afterPath="$PROJECT_DIR$/app/components/FinancialMarket/AssetsManage/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/FinancialMarket/FSHG/index.js" afterPath="$PROJECT_DIR$/app/components/FinancialMarket/FSHG/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/FinancialMarket/THYW/index.js" afterPath="$PROJECT_DIR$/app/components/FinancialMarket/THYW/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/FinancialMarket/ZHSX/index.js" afterPath="$PROJECT_DIR$/app/components/FinancialMarket/ZHSX/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/FinancialMarket/ZQYW/index.js" afterPath="$PROJECT_DIR$/app/components/FinancialMarket/ZQYW/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Home/LatestActivity/index.js" afterPath="$PROJECT_DIR$/app/components/Home/LatestActivity/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Home/News/style.scss" afterPath="$PROJECT_DIR$/app/components/Home/News/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/LoanCalculate/index.js" afterPath="$PROJECT_DIR$/app/components/LoanCalculate/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFBJK/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFBJK/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFJK/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFJK/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFPK/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFPK/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/GJJDFK/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/GJJDFK/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/GJK/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/GJK/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/SHBZK/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/SHBZK/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/CurrentDeposit/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/CurrentDeposit/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/FeatureDeposit/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/FeatureDeposit/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/FeatureDeposit/style.scss" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/FeatureDeposit/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/InformDeposit/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/InformDeposit/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/SmallDepositWithdrawal/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/SmallDepositWithdrawal/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/WholeDepositWithdrawal/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/WholeDepositWithdrawal/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/AutomobileLoan/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/AutomobileLoan/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/EntrepreneurLoan/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/EntrepreneurLoan/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/GuaranteeLoan/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/GuaranteeLoan/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/LendingThrough/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/LendingThrough/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/UnemploymentLoan/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/UnemploymentLoan/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/WomenEntrepreneurs/index.js" afterPath="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/WomenEntrepreneurs/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/commons/Header/Item/SubItems/index.js" afterPath="$PROJECT_DIR$/app/components/commons/Header/Item/SubItems/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/commons/Header/Item/SubItems/style.scss" afterPath="$PROJECT_DIR$/app/components/commons/Header/Item/SubItems/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/commons/Header/Item/index.js" afterPath="$PROJECT_DIR$/app/components/commons/Header/Item/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/commons/Header/index.js" afterPath="$PROJECT_DIR$/app/components/commons/Header/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/commons/Scroll/index.js" afterPath="$PROJECT_DIR$/app/components/commons/Scroll/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/commons/Scroll/style.scss" afterPath="$PROJECT_DIR$/app/components/commons/Scroll/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/commons/SubPageTemplate/style.scss" afterPath="$PROJECT_DIR$/app/components/commons/SubPageTemplate/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/constants/index.js" afterPath="$PROJECT_DIR$/app/constants/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/CompanyProfile/Structure/index.js" afterPath="$PROJECT_DIR$/app/containers/About/CompanyProfile/Structure/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/BoardComposition/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/BoardComposition/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/CommitteeComposition/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/CommitteeComposition/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/StockholderIntro/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/StockholderIntro/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/SupervisorsComposition/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/SupervisorsComposition/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/PublicityEducation/CounterfeitMoney/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/PublicityEducation/CounterfeitMoney/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/PublicityEducation/WornCoin/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/PublicityEducation/WornCoin/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Report/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Report/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Stockholder/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/Stockholder/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/InformDisclosure/XXPL/index.js" afterPath="$PROJECT_DIR$/app/containers/About/InformDisclosure/XXPL/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/NewNotice/News/index.js" afterPath="$PROJECT_DIR$/app/containers/About/NewNotice/News/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/NewNotice/Notice/index.js" afterPath="$PROJECT_DIR$/app/containers/About/NewNotice/Notice/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/NewNotice/PublicityEducation/CounterfeitMoney/index.js" afterPath="$PROJECT_DIR$/app/containers/About/NewNotice/PublicityEducation/CounterfeitMoney/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/About/NewNotice/PublicityEducation/WornCoin/index.js" afterPath="$PROJECT_DIR$/app/containers/About/NewNotice/PublicityEducation/WornCoin/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/CompanyBusiness/First/index.js" afterPath="$PROJECT_DIR$/app/containers/CompanyBusiness/First/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/EBank/First/index.js" afterPath="$PROJECT_DIR$/app/containers/EBank/First/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/FinancialMarket/First/index.js" afterPath="$PROJECT_DIR$/app/containers/FinancialMarket/First/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/Home/index.js" afterPath="$PROJECT_DIR$/app/containers/Home/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/PersonalBusiness/First/index.js" afterPath="$PROJECT_DIR$/app/containers/PersonalBusiness/First/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/PersonalBusiness/PersonalDeposit/index.js" afterPath="$PROJECT_DIR$/app/containers/PersonalBusiness/PersonalDeposit/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/index.js" afterPath="$PROJECT_DIR$/app/containers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/template/index.html" afterPath="$PROJECT_DIR$/app/template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="$PROJECT_DIR$/docs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/companyBusinessNavItems/index.js" afterPath="$PROJECT_DIR$/mock/companyBusinessNavItems/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/contactUsNavItem/index.js" afterPath="$PROJECT_DIR$/mock/contactUsNavItem/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/header/index.js" afterPath="$PROJECT_DIR$/mock/header/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/informDisclosure/index.js" afterPath="$PROJECT_DIR$/mock/informDisclosure/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/onlineService/index.js" afterPath="$PROJECT_DIR$/mock/onlineService/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/personalBusinessNavItems/index.js" afterPath="$PROJECT_DIR$/mock/personalBusinessNavItems/index.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="dz-bank" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-205">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="scss" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;br/&gt;</find>
+      <find>$$</find>
+      <find>work-a</find>
+      <find>addre</find>
+      <find>unit</find>
+      <find>73</find>
+      <find>personal</find>
+      <find>loan</find>
+      <find>deposit-rate</find>
+      <find>inform</find>
+      <find>@/containers</find>
+      <find>red</find>
+      <find>ContactUs</find>
+      <find>0</find>
+      <find>data$$1</find>
+      <find>Zoom</find>
+      <find>**</find>
+      <find>throw errorToThrow</find>
+      <find>/index</find>
+      <find>4</find>
+      <find>5</find>
+      <find>creditPeriod</find>
+      <find>blue</find>
+      <find>√</find>
+      <find>20</find>
+      <find>15</find>
+      <find>ios</find>
+      <find>touch</find>
+      <find>P</find>
+      <find>img</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$$</replace>
+      <replace>corporate</replace>
+      <replace>deposit</replace>
+      <replace>service-site</replace>
+      <replace>recruit</replace>
+      <replace>.</replace>
+      <replace>/home</replace>
+      <replace>5</replace>
+      <replace>✔</replace>
+      <replace>15</replace>
+      <replace>p</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/app/template/index.html" />
+        <option value="$PROJECT_DIR$/mock/informDisclosure/index.js" />
+        <option value="$PROJECT_DIR$/mock/contactUsNavItem/index.js" />
+        <option value="$PROJECT_DIR$/mock/onlineService/index.js" />
+        <option value="$PROJECT_DIR$/app/components/About/ContactUs/ServicePhone/index.js" />
+        <option value="$PROJECT_DIR$/app/containers/About/InformDisclosure/Governance/StockholderIntro/index.js" />
+        <option value="$PROJECT_DIR$/app/components/Home/index.js" />
+        <option value="$PROJECT_DIR$/app/components/ServiceSite/index.js" />
+        <option value="$PROJECT_DIR$/app/components/About/ContactUs/ServiceSite/index.js" />
+        <option value="$PROJECT_DIR$/app/components/LoanCalculate/index.js" />
+        <option value="$PROJECT_DIR$/app/components/DepositCalculate/index.js" />
+        <option value="$PROJECT_DIR$/app/components/About/OnlineService/OnlineLoan/PersonalLoan/index.js" />
+        <option value="$PROJECT_DIR$/app/components/About/OnlineService/OnlineLoan/CorporateLoan/index.js" />
+        <option value="$PROJECT_DIR$/build/js/app.3ff861c5.js" />
+        <option value="$PROJECT_DIR$/../../js/app.3ff861c5.js" />
+        <option value="$PROJECT_DIR$/../../js/app.1ba9587f.js" />
+        <option value="$PROJECT_DIR$/../../js/app.4f4ff679.js" />
+        <option value="$PROJECT_DIR$/app/components/commons/Header/index.js" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Culture/index.js" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Culture/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Intro/index.js" />
+        <option value="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/FeatureDeposit/index.js" />
+        <option value="$PROJECT_DIR$/app/containers/PersonalBusiness/PersonalDeposit/LHC/index.js" />
+        <option value="$PROJECT_DIR$/app/containers/PersonalBusiness/PersonalDeposit/DLB/index.js" />
+        <option value="$PROJECT_DIR$/app/containers/PersonalBusiness/PersonalDeposit/index.js" />
+        <option value="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/LHC/index.js" />
+        <option value="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/DLB/index.js" />
+        <option value="$PROJECT_DIR$/mock/personalBusinessNavItems/index.js" />
+        <option value="$PROJECT_DIR$/app/components/commons/Header/Item/index.js" />
+        <option value="$PROJECT_DIR$/app/components/commons/Header/Item/SubItems/index.js" />
+        <option value="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SCGYD/index.js" />
+        <option value="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZKZYD/index.js" />
+        <option value="$PROJECT_DIR$/app/containers/Home/index.js" />
+        <option value="$PROJECT_DIR$/mock/header/index.js" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Strategy/index.js" />
+        <option value="$PROJECT_DIR$/app/components/commons/Scroll/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Duty/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Intro/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Strategy/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/About/CompanyProfile/Structure/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/commons/Header/Item/SubItems/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/commons/SubPageTemplate/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/SCGYD/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/CompanyBusiness/CompanyLoan/ZKZYD/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/Home/News/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/DLB/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/FeatureDeposit/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/LHC/style.scss" />
+        <option value="$PROJECT_DIR$/app/components/ProductDetail/style.scss" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dz-bank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="F:/node/node" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="E:\projects\dz-bank\dz-bank\node_modules\eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\dz-bank\dz-bank\app\components" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\components\Home" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\containers\About\NewNotice" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\containers\FinancialMarket\First" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\containers\EBank\First" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\dz-bank\dz-bank\app\static\images" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\containers\PersonalBusiness\PersonalDeposit\DLB" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\containers\PersonalBusiness\PersonalDeposit\LHC" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\components\PersonalBusiness\PersonalDeposit\LHC" />
+      <recent name="E:\projects\dz-bank\dz-bank\app\components\PersonalBusiness\PersonalDeposit\DLB" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="affac225-f554-408a-ab91-a7b00ab8d892" name="Default" comment="" />
+      <created>1510112187754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510112187754</updated>
+      <workItem from="1510112189824" duration="24874000" />
+      <workItem from="1510188864285" duration="35619000" />
+      <workItem from="1510275285007" duration="11834000" />
+      <workItem from="1510292496829" duration="16231000" />
+      <workItem from="1510407578353" duration="1845000" />
+      <workItem from="1510534767150" duration="30737000" />
+      <workItem from="1510620814458" duration="24880000" />
+      <workItem from="1510707668418" duration="20758000" />
+      <workItem from="1510793886319" duration="23633000" />
+      <workItem from="1510880676166" duration="22346000" />
+      <workItem from="1511139896237" duration="23534000" />
+      <workItem from="1511226637588" duration="18049000" />
+      <workItem from="1511312538522" duration="16401000" />
+      <workItem from="1511399818412" duration="20530000" />
+      <workItem from="1511486672870" duration="3430000" />
+      <workItem from="1511490601930" duration="13072000" />
+      <workItem from="1511830509327" duration="18784000" />
+      <workItem from="1511917287422" duration="15937000" />
+      <workItem from="1512003803948" duration="20250000" />
+      <workItem from="1512090066926" duration="9718000" />
+      <workItem from="1512350137649" duration="12349000" />
+      <workItem from="1512437515667" duration="13949000" />
+      <workItem from="1512460336309" duration="2303000" />
+      <workItem from="1512522396429" duration="8839000" />
+      <workItem from="1512610072428" duration="11012000" />
+      <workItem from="1512628664091" duration="4625000" />
+      <workItem from="1512695508559" duration="953000" />
+      <workItem from="1512698224506" duration="175000" />
+      <workItem from="1512703988955" duration="343000" />
+      <workItem from="1512704606690" duration="73000" />
+      <workItem from="1512954916781" duration="20835000" />
+      <workItem from="1513040947953" duration="5360000" />
+      <workItem from="1513127909012" duration="8957000" />
+      <workItem from="1513217293807" duration="3035000" />
+      <workItem from="1513301257946" duration="15423000" />
+      <workItem from="1513647003380" duration="14567000" />
+      <workItem from="1513734354688" duration="12089000" />
+      <workItem from="1513820782549" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="507959000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18335089" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264642" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16492693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/components/PersonalBusiness/RecommendCard/Item/index.js</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/components/PersonalBusiness/RecommendCard/index.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/containers/PersonalBusiness/PersonalLoan/LendingThrough/index.js</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/containers/FinancialMarket/TYYW/index.js</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/containers/ServiceSite/index.js</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mock/header/index.js</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/containers/About/OnlineService/ConsultComplaint/index.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/mock/header/index.js</url>
+          <line>130</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/components/EBank/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/AssetsManage/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/Banner/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/Business/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/FSHG/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/Second/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/THYW/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/ZHSX/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/ZQYW/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/FinancialMarket/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/HomeBanner/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/HomeTools/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/LatestActivity/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/NewNotices/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/News/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/Notice/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/ServiceType/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Home/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/LoanCalculate/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/LoanRate/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/NotFound/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFBJK/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFJK/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/DFPK/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/GJJDFK/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/GJK/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/SHBZK/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/BankCard/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/Banner/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/CurrentDeposit/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/DLB/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/FeatureDeposit/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/InformDeposit/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/LHC/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/SmallDepositWithdrawal/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/WholeDepositWithdrawal/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalDeposit/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/AutomobileLoan/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/EntrepreneurLoan/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/GuaranteeLoan/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/LendingThrough/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/UnemploymentLoan/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/WomenEntrepreneurs/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/PersonalLoan/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/RecommendCard/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/PersonalBusiness/RecommendCard/Item/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ProductDetail/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ServiceCharge/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/ServiceSite/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,54 @@
+.personal-business-recommend-container{
+  width:1180px;
+  margin:35px auto 0;
+
+  h2{
+    font-size:20px;
+    color:#212121;
+    line-height: 1.5;
+    height:30px;
+    overflow: hidden;
+    font-weight: bold;
+  }
+
+  span{
+    height:30px;
+  }
+
+  span.float-right{
+    width:63px;
+    position: relative;
+  }
+
+  em{
+    width:30px !important;
+    height:20px !important;
+    border:1px solid #E0E0E0;
+    position: absolute;
+    top:4px !important;
+    //top:26px !important;
+    right:0 !important;
+    background:#fff url(./images/right.png) no-repeat center center !important;
+
+    &:hover{
+      background-image:url(./images/right_active.png) !important;
+    }
+
+    &:first-child{
+      border-right:none;
+      left:0 !important;
+      background-image:url(./images/left.png) !important;
+
+      &:hover{
+        background-image:url(./images/left_active.png) !important;
+      }
+    }
+
+  }
+}
+
+.personal-business-card-items{
+  margin-top:15px;
+  height:350px;
+  overflow: hidden;
+}

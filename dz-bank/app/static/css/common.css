@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/*定义跨浏览器的能力*/
+/**
+ *样式重置
+ */
+/* line 5, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*清除浮动*/
+/* line 13, ../scss/commons.scss */
+.clear-fix {
+  *zoom: 1;
+}
+/* line 22, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.clear-fix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*左右浮动*/
+/* line 19, ../scss/commons.scss */
+.float-left {
+  float: left;
+  display: inline;
+}
+
+/* line 22, ../scss/commons.scss */
+.float-right {
+  float: right;
+  display: inline;
+}
+
+/*让子元素能够使用父元素的样式  特别是 li下的a标签*/
+/* line 28, ../scss/commons.scss */
+.inherited {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+/* line 6, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_unstyled-link.scss */
+.inherited:active, .inherited:focus {
+  outline: none;
+}
+
+/*hover 添加下划线*/
+/* line 34, ../scss/commons.scss */
+.underline-hover {
+  text-decoration: none;
+}
+/* line 4, F:/ruby/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/links/_hover-link.scss */
+.underline-hover:hover, .underline-hover:focus {
+  text-decoration: underline;
+}
+
+/*文本单行省略号 需要安装compass install compass/ellipsis*/
+/* line 41, ../scss/commons.scss */
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -moz-binding: url('/app/static/css/xml/ellipsis.xml#ellipsis');
+}
+
+/*display:inline-block的跨浏览器样式*/
+/* line 47, ../scss/commons.scss */
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 51, ../scss/commons.scss */
+.overflow-top::before ,.overflow-top::after{
+  content: '';
+  display: table;
+}
+
+/* line 55, ../scss/commons.scss */
+html, body {
+  font-family: "微软雅黑","Times New Roman",Georgia,Serif;
+  min-height: 100%;
+  min-width:100%;
+  background-color: #F5F5F5;
+}
+
+/* line 59, ../scss/commons.scss */
+a {
+  text-decoration: none;
+}
+
+.app-main{
+  background-color: #F5F5F5;
+}
+

@@ -1,0 +1,63 @@
+.inform-stockholder-main{
+  padding:40px - 3.5 0 15px;
+
+  table{
+    border-collapse: collapse;
+    width:100%;
+    margin-top: 20px;
+
+    th,td{
+      border: 1px solid #f1f1f1;
+      color:#666;
+      font-size: 14px;
+      line-height: 3;
+      text-align: center;
+      height:42px;
+    }
+
+    td{
+      color:#bbb;
+    }
+  }
+
+  h6{
+    //font-size: 14px;
+    color:#424242;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  p{
+    font-size: 14px;
+    color:#424242;
+    line-height: 1.5;
+    margin:30px - 7 0 22px - 3.5;
+  }
+
+  a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+    background-color: #A1753A;
+    line-height: 28px;
+    height:28px;
+    width:80px;
+    text-align: center;
+    border-radius: 4px;
+  }
+
+  span{
+    font-size:14px;
+    color:#A1A1A1;
+    margin-left:10px;
+  }
+
+  div{
+    line-height: 28px;
+    height:28px;
+    overflow: hidden;
+  }
+}

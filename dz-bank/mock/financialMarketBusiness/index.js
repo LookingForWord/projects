@@ -1,0 +1,30 @@
+module.exports = [
+    {
+        imgUrl:'zcgl.png',
+        title:'资产管理',
+        linkUrl:'/'
+    },
+    {
+        imgUrl:'fshg.png',
+        title:'买入返售与卖出回购',
+        linkUrl:'/'
+    },
+    {
+        imgUrl:'zhsx.png',
+        title:'综合授信',
+        linkUrl:'/'
+    },
+    {
+        imgUrl:'zqyw.png',
+        title:'债券业务',
+        linkUrl:'/'
+    },{
+        imgUrl:'tyyw.png',
+        title:'同业业务',
+        linkUrl:'/'
+    },{
+        imgUrl:'zcgl.png',
+        title:'资产管理',
+        linkUrl:'/'
+    }
+]

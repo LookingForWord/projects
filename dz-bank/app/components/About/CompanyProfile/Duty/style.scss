@@ -1,0 +1,46 @@
+.duty-img-container{
+  width:100%;
+  font-size: 0;
+
+  img{
+    width:100%;
+    height:auto;
+  }
+}
+
+.company-duty-main{
+  margin-top: 40px;
+
+  a{
+    font-size: 14px;//7
+    color:#A1753A;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top:26.5px;
+    display: block;
+  }
+
+
+  /*添加*/
+  h6{
+    font-size: 14px;
+    font-weight: bold;//24
+    margin:30px - 4 - 7 0 20px - 7 - 4;
+    line-height: 1.5;
+    color:#212121;
+  }
+
+  h5{
+    font-size: 16px;
+    font-weight: bold;
+    color:#A1753A;
+    line-height: 1.5;
+    margin:30px - 4 0 20px - 4 - 7;
+  }
+
+  p{
+    font-size: 14px;
+    color:#9A9A9A;
+    line-height: 28px;//21
+  }
+}
